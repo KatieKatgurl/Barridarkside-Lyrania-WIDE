@@ -221,7 +221,13 @@ div.lrow div.flex-content div.lrow div.strong.text-center.flex {
     font-style: oblique;
     font-weight: normal;
 }
-
+/*Restarting... Autos*/
+div#stopauto.text-center.flex {
+    margin-top: 4px;
+    font-size: 12pt !important;
+    color: #EAFF00;
+    text-shadow: 0px 0px 2px #FF6200, 0 0 2px #FF4100, 0 0 2px #F00;
+}
 /*dungeon autos remaining*/
 html body div#holder div#middlesection.lrow div#main div#content div.lrow div.flex-content div.strong.text-center {
     color: #fff !important;
