@@ -3,6 +3,7 @@
 /*go to Dropdown Menu > Settings > Display > Use Widescreen Mode > Yes > Refresh > Profit!*/
 
 
+
 #skills {
     font-size: 10px;
     padding: 5px;
@@ -223,7 +224,7 @@ div.lrow div.flex-content div.lrow div.strong.text-center.flex {
 }
 /*Restarting... Autos*/
 div#stopauto.text-center.flex {
-    margin-top: 4px;
+    margin-top: 10px;
     font-size: 12pt !important;
     color: #EAFF00;
     text-shadow: 0px 0px 2px #FF6200, 0 0 2px #FF4100, 0 0 2px #F00;
@@ -1052,14 +1053,13 @@ html body div#holder div#middlesection.lrow div#main div#content div#rightinfo i
     text-align: center;
     border: 3px inset !important;
     border-radius: 12px;
-    border-color: #000 !important;
-    box-shadow: 0px 0px 3px #f00, 0px 0px 3px #f00, 0px 0px 3px #f00 inset !important;
+    border-color: #fff !important;
+    box-shadow: 0px 0px 3px silver, 0px 0px 3px silver, 0px 0px 3px silver inset !important;
     height:18px !important;
     width: 60px !important;
     float: right !important;
     padding-bottom: 3px !important;
 }
-
 
 
 /*bulk color text (fix colors when stylish gets updated)*/
@@ -1350,4 +1350,17 @@ a#unreadmail b {
 }
 html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div a{
     font-weight: normal !important;
+}
+
+/*Chat Commands, Rules, Problem?!, FAQ*/
+html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div b {
+    color: red !important;
+    text-shadow: 1px 1px 2px black, 1px 1px 2px black, 1px 1px 2px black;    
+    font-weight: normal !important;
+    font-size: 11pt !important;
+}
+html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div h4 {
+    color: yellow;
+    font-size: 12pt;
+    text-decoration: underline;
 }
