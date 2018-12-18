@@ -346,7 +346,7 @@ input#litechatbutton {
     background-color: #00000000 !important;
     color: #FFF !important;
     text-shadow: 1px 1px 2px black, 1px 1px 2px black, 1px 1px 2px black;
-    min-height: 100px !important;
+    min-height: 50px !important;
     /*border-color: #FFF;
     box-shadow: 0px 0px 1px #FFF, 0 0 2px #FFF, 0 0 7px #FFF;*/
 }
