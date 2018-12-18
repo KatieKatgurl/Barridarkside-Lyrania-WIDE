@@ -29,7 +29,8 @@
     width: 50%
 }
 #housing a {
-    text-decoration: underline;
+    font-style: oblique !important;
+    text-decoration: none !important;
 }
 
 /*TRUE widescreen Lyr now :D */
