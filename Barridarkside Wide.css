@@ -11,7 +11,11 @@
     font-size: 12px !important;
     padding: 5px !important;
 }
+
 /*Inventory*/
+ul#inventul {
+    padding-right: 93px;
+}
 #inventul li {
     display: inline-block;
     list-style-type: none;
@@ -23,6 +27,7 @@
     font-size: 16px;
     color: #fff !important;
     text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00 !important;
+     padding-right: 0px;
 }
 /*Jewelry*/
 div#inventdiv1 {
@@ -32,32 +37,32 @@ div#inventdiv1 {
 /*Maps*/
 div#inventdiv2 {
     text-align: center !important;
-    padding-left: 25px;
+    padding-right: 75px;
 }
 /*Orbs*/
 div#inventdiv3 {
     text-align: center !important;
-    padding-left: 25px;
+    padding-right: 75px;
 }
 /*Consumables*/
 div#inventdiv4 {
     text-align: center !important;
-    padding-left: 40px;
+    padding-right: 50px;
 }
 /*Resources*/
 div#inventdiv5 {
     text-align: center !important;
-    padding-left: 20px;
+    padding-right: 75px;
 }
 /*Potions*/
 div#inventdiv6 {
     text-align: center !important;
-    padding-left: 50px;
+    padding-right: 75px;
 }
 /*Misc*/
 div#inventdiv7{
     text-align: center !important;
-    padding-left: 50px;
+    padding-right: 50px;
 }
 
 /*top right clickables*/
