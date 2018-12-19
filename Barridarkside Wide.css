@@ -1,7 +1,7 @@
 /*Barricade's Lyrania Theme --Barridarkside [Lyrania] WIDE*/
 /*to be used OVER the BLACK THEME and MUST be in widescreen mode*/
 /*go to Dropdown Menu > Settings > Display > Use Widescreen Mode > Yes > Refresh > Profit!*/
-
+@namespace url(http://www.w3.org/1999/xhtml);
 
 #skills {
     font-size: 10px;
@@ -1200,6 +1200,7 @@ html body div#holder div#middlesection.lrow div#main div#content div#rightinfo i
     width: 60px !important;
     float: right !important;
     padding-bottom: 3px !important;
+    text-decoration: none !important;
 }
 
 
