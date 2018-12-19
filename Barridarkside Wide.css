@@ -119,7 +119,10 @@ html body div#holder div#middlesection.lrow div#main div#content div#contentBoss
 html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div#housing div div span div {
     max-width: 210px !important;
 }
-
+/*non-popup ui construction xp bar*/
+html body div#holder div#middlesection.lrow div#main div#content div#housing div div span div {
+    width: 275px !important;
+}
 /* Jade Temple */
 span.skillinfo {
     text-align: right;
