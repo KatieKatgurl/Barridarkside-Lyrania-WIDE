@@ -942,6 +942,7 @@ html body div#popupcontainer div#popupholder div div div#popuprescontainer div#p
 }
 #sidecounter {
     text-align: left !important;
+    font-size: 10pt;
 }
 #killscount {
     color: #fff !important;
