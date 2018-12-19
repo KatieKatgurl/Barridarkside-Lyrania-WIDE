@@ -650,6 +650,19 @@ html body div#popupcontainer div#popupholder div div div#popuprescontainer div#p
     background-color: #1c1c1c !important;
     border-radius: 7px 7px 0px 0px !important;
 }
+/*non-popup ui log*/
+html body div#holder div#middlesection.lrow div#main div#content div div.panel div.panel-heading.text-center {
+    color: #fff !important;
+    text-shadow: 0px 0px 2px #000, 0px 0px 2px #000, 0px 0px 2px #000 !important;
+    background-color: #1c1c1c !important;
+    border-radius: 7px 7px 0px 0px !important;
+    border: hidden !important;
+}
+/*non-pop up ui panel background*/
+html body div#holder div#middlesection.lrow div#main div#content div div.panel div.panel-body {
+    background: #00000091 !important;
+    text-align: left !important;
+}
 /*-----------------------------------------------------------------------*/
 #onlinecount {
     font-size: 10pt;
