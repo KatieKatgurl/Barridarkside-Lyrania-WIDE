@@ -906,10 +906,12 @@ html body div#popupcontainer div#popupholder div div div#popuprescontainer div#p
     font-size: 10pt !important;
     text-align: left;
 }
+/*new quest bitch*/
 html body div#holder div#middlesection.lrow div#side1 div#questtracker a span#questupdateid font {
-    color: red;
-    text-shadow: 0px 0px 1px #000, 0px 0px 1px #000, 0px 0px 1px #000 !important;
+    color: #EAFF00 !important;
+    text-shadow: 0px 0px 2px #FF6200, 0 0 2px #FF4100, 0 0 2px #F00 !important;
     font-weight: bold;
+    text-decoration: underline !important;
 }
 
 
