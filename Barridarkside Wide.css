@@ -848,10 +848,23 @@ span[style*="font-weight"] {
     font-size: 10pt !important;
     text-align: left;
 }
+
 #unreadmail {
     font-size: 10pt !important;
     text-align: left;
+    padding-bottom: 50px;
 }
+/*Mailbox "You've Got Mail!"*/
+a#unreadmail b {
+    color: #EAFF00;
+    text-shadow: 0px 0px 2px #FF6200, 0 0 2px #FF4100, 0 0 2px #F00;
+    font-weight: normal !important;
+    font-size: 12pt !important;
+}
+html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div a{
+    font-weight: normal !important;
+}
+
 #questtracker {
     font-size: 10pt !important;
     text-align: left;
@@ -932,8 +945,8 @@ html body div#holder div#middlesection.lrow div#side1 div#questtracker a span#qu
 #equipment > H3 {
     text-align: center !important;
     font-size: 12pt !important;
-    color: #FFF !important;
-    text-shadow: 1px 1px 2px black, 1px 1px 2px black, 1px 1px 2px black;
+    color: #fff !important;
+    text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00 !important;
 }
 
 
@@ -966,7 +979,10 @@ html body div#holder div#middlesection.lrow div#side2 hr {
     font-size: 12pt !important;
     padding-bottom: 35px;
 }
-
+html body div#holder div#middlesection.lrow div#side1 div#tstimer b {
+    color: #fff !important;
+    text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00 !important;
+}
 
 /* Current TS Jobs: Timers */
 #tsjob1,
@@ -976,7 +992,6 @@ html body div#holder div#middlesection.lrow div#side2 hr {
     font-size: 10pt !important;
     position: relative !important;
 }
-
 
 /* TS colors */
 #ts1,
@@ -1424,16 +1439,7 @@ html body div#popupcontainer div#popupholder div div div#popuprescontainer div#p
     padding-right: 25px;
 }
 
-/*Mailbox "You've Got Mail!"*/
-a#unreadmail b {
-    color: #fff !important;
-    text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00 !important;
-    font-weight: normal !important;
-    font-size: 12pt !important;
-}
-html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div a{
-    font-weight: normal !important;
-}
+
 
 /*Chat Commands, Rules, Problem?!, FAQ*/
 html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div b {
