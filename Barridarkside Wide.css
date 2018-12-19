@@ -3,25 +3,67 @@
 /*go to Dropdown Menu > Settings > Display > Use Widescreen Mode > Yes > Refresh > Profit!*/
 
 
-
 #skills {
     font-size: 10px;
     padding: 5px;
 }
 #jewellery {
-    font-size: 12px;
-    padding: 5px;
+    font-size: 12px !important;
+    padding: 5px !important;
 }
+/*Inventory*/
 #inventul li {
-    display: inline;
+    display: inline-block;
     list-style-type: none;
     font-size: 14px;
+    font-weight: bold !important;
 }
 #inventul li a {
     text-decoration: none;
-    font-size: 14px;
+    font-size: 16px;
+    color: #fff !important;
+    text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00 !important;
+}
+/*Jewelry*/
+div#inventdiv1 {
+    display: inline-block;
+    padding-right: 50px;
+}
+/*Maps*/
+div#inventdiv2 {
+    text-align: center !important;
+    padding-left: 25px;
+}
+/*Orbs*/
+div#inventdiv3 {
+    text-align: center !important;
+    padding-left: 25px;
+}
+/*Consumables*/
+div#inventdiv4 {
+    text-align: center !important;
+    padding-left: 40px;
+}
+/*Resources*/
+div#inventdiv5 {
+    text-align: center !important;
+    padding-left: 20px;
+}
+/*Potions*/
+div#inventdiv6 {
+    text-align: center !important;
+    padding-left: 50px;
+}
+/*Misc*/
+div#inventdiv7{
+    text-align: center !important;
+    padding-left: 50px;
 }
 
+/*top right clickables*/
+html body div#holder div.lrow div#header div.lrow div.headerbox.headernav a {
+    font-weight: bold !important;
+}
 .settingsform > label {
     text-align: center;
 }
@@ -224,8 +266,8 @@ div.lrow div.flex-content div.lrow div.strong.text-center.flex {
 }
 /*Restarting... Autos*/
 div#stopauto.text-center.flex {
-    margin-top: 10px;
-    font-size: 12pt !important;
+    margin-top: 0px;
+    font-size: 15pt !important;
     color: #EAFF00;
     text-shadow: 0px 0px 2px #FF6200, 0 0 2px #FF4100, 0 0 2px #F00;
 }
@@ -1218,7 +1260,6 @@ div[style*="border-style:solid;border-width:1px;border-color:#660066"] img {
 #popupcontainer div {
     background-color: #000;
     border-radius: 12px;
-    text-align: center;
     color: #fff;
     resize: vertical !important;
     font-size: 9pt;
@@ -1233,6 +1274,8 @@ div[style*="border-style:solid;border-width:1px;border-color:#660066"] img {
     padding-top: 25px;
     background-color: #000;
     font-size: 12px;
+    display: inline;
+    padding-left: 150px !important;
 }
 #popupnav {
     text-align: center;
@@ -1243,6 +1286,7 @@ div[style*="border-style:solid;border-width:1px;border-color:#660066"] img {
     height: 27px !important;
     font-size: 11pt !important;
 }
+
 tbody {
     color: white;
 }
