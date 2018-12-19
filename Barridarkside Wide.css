@@ -313,7 +313,7 @@ html body div#popupcontainer div#popupholder div div div#popuprescontainer div#p
     border: white 3px;
     border-style: ridge;
     border-color: #000 !important;
-    box-shadow: 0px 0px 3px #f00, 0px 0px 3px #f00, 0px 0px 3px #f00 inset !important;
+    box-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00 inset !important;
     text-align: left !important;
 }
 html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div#housing div#roomlist p {
@@ -330,19 +330,11 @@ html body div#popupcontainer div#popupholder div div div#popuprescontainer div#p
     border: white 3px;
     border-style: ridge;
     border-color: #000 !important;
-    box-shadow: 0px 0px 3px #f00, 0px 0px 3px #f00, 0px 0px 3px #f00 inset !important;
+    box-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00 inset !important;
 }
 /*non-popup ui mode room list*/
 html body div#holder div#middlesection.lrow div#main div#content div#housing div#roomlist {
-    background: #000000a6;
-    width: 600px !important;
-    margin-left: 18% !important;
     margin-top: 1% !important;
-    border-radius: 12px;
-    border: white 3px;
-    border-style: ridge;
-    border-color: #000 !important;
-    box-shadow: 0px 0px 3px #f00, 0px 0px 3px #f00, 0px 0px 3px #f00 inset !important;
 }
 /* Room item counts */
 html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div#housing div#roomlist div span {
