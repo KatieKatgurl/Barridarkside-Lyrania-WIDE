@@ -138,6 +138,7 @@ html body div#popupcontainer div#popupholder div div div#popuprescontainer div#p
     background: red !important;
     box-shadow: 0px 0px 1px black inset;
 }
+
 /* Jade Temple */
 span.skillinfo {
     text-align: right;
@@ -322,8 +323,10 @@ div.battleContainer.lrow.margin-bottom-10 {
 html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div#housing div#roomlist {
     background: #000000a6;
     max-width: 700px !important;
-    height: 450px;
+    height: auto !important;
     margin-top: 1% !important;
+    margin-bottom: -3% !important;
+    padding-bottom: 1% !important;
     border-radius: 12px;
     border: white 3px;
     border-style: ridge;
