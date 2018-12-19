@@ -1211,6 +1211,37 @@ html body div#holder div#middlesection.lrow div#main div#bannerholder div a font
 /* -- End Dungeon layout -- */
 /*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*New Map Tier Upgrade Option - Only on Dev Server at the moment*/
+/*Upgrade Map Tier*/
+html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div table tbody tr td a.action-link {
+    color: #fff !important;
+    text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00 !important;
+}
+/*Tier 1,2,3,4,5......*/
+html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div table tbody tr td strong {
+    color: #f00;
+    font-size: 13pt !important;
+}
+/*Name, Quantity, Actions*/
+#popup > div:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) {
+    color: #f00;
+    font-size: 14pt;
+    text-align: center !important;
+}
+#popup > div:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(2) {
+    color: #f00;
+    font-size: 14pt;
+    text-align: center !important;
+}
+#popup > div:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(3) {
+    color: #f00;
+    font-size: 14pt;
+    text-align: center !important;
+}
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
 /* Dungeon completion table */
 div[style*="border-style:solid;border-width:1px;border-color:#FFFFFF"] img {
     outline: white solid 10px;
@@ -1311,9 +1342,9 @@ table#milestonestable th {
 
 /*------------------------------------------------------------------------------------------------------------*/
 /*jade temple top text (hidden) (also BREAKS dungeon shop, motherfucker needs to die!)*/
-/*html body div#holder div#middlesection.lrow div#main div#content div p {
-    display: none;
-}*/
+html body div#holder div#middlesection.lrow div#main div#content div p {
+    display: block;
+}
 /*------------------------------------------------------------------------------------------------------------*/
 
 table#milestonestable {
