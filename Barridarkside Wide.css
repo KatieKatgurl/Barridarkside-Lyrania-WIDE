@@ -84,7 +84,6 @@ html body div#holder div.lrow div#header div.lrow div.headerbox.headernav a {
 /*TRUE widescreen Lyr now :D */
 #holder {
     width: 99.9% !important;
-    height: auto !important;
     background-image: url("https://screenshotscdn.firefoxusercontent.com/images/b6e256a2-0727-410e-a0ab-5badd1f2ef51.png")!important;
     background-repeat: no-repeat !important;
     background-position: center !important;
