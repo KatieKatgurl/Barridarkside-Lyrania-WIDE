@@ -3,6 +3,19 @@
 /*go to Dropdown Menu > Settings > Display > Use Widescreen Mode > Yes > Refresh > Profit!*/
 @namespace url(http://www.w3.org/1999/xhtml);
 
+
+/*You have 10 pieces of jewellery equipped out of a total of 10 slots available.*/
+html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div#inventdiv1 font b {
+    text-align: center;
+    color: #f00 !important;
+    margin-left: 5% !important;
+}
+/*Unequipped Jewelry*/
+html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div#inventdiv1 b {
+    color: #0f0 !important; 
+}
+
+
 #skills {
     font-size: 10px;
     padding: 5px;
@@ -27,7 +40,6 @@ ul#inventul {
     font-size: 16px;
     color: #fff !important;
     text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00 !important;
-     padding-right: 0px;
 }
 /*Jewelry*/
 div#inventdiv1 {
@@ -671,6 +683,7 @@ div.panel-heading a {
     border-style: inset;
     border-color: #000 !important;
     box-shadow: 0px 0px 3px #f00, 0px 0px 3px #f00, 0px 0px 3px #f00 inset !important;
+    margin-left: 2% !important;
 }
 /*header text*/
 html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div div.panel div.panel-heading {
@@ -1385,15 +1398,15 @@ div[style*="border-style:solid;border-width:1px;border-color:#660066"] img {
     color: white !important;
     padding-left: 40px !important;
     width: 350px !important;
-    height: 27px !important;
+    height: 26px !important;
     font-size: 11pt !important;
     margin-top: 3px !important;
     margin-left: 60% !important;
 }
 /*menu for log*/
  /*#popupholder select#filter { 
-     margin-bottom: 25px !important; 
-}*/ 
+     margin-top: 25px !important; 
+}*/
 /*#popupnav {
     padding-right: 550px;
     text-align: right;
@@ -1422,6 +1435,7 @@ html body div#popupcontainer div#popupholder div div div#popuprescontainer div#p
     float: right !important;
     padding-bottom: 3px !important;
     margin-top: 1px;
+    margin-right: -5% !important;
 }
 [href="javascript:closepage();"]:hover {
     color: #fff !important;
