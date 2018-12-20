@@ -25,9 +25,9 @@ html body div#popupcontainer div#popupholder div div div#popuprescontainer div#p
     padding: 5px !important;
 }
 
-/*Inventory*/
+/*Inventory selections*/
 ul#inventul {
-    padding-right: 0px;
+    padding-right: 30px;
 }
 #inventul li {
     display: inline-block;
@@ -44,7 +44,7 @@ ul#inventul {
 /*Jewelry*/
 div#inventdiv1 {
     display: inline-block;
-    padding-right: 0px;
+    padding-right: 25px;
     font-size: 10pt !important;
 }
 /*Maps*/
