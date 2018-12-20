@@ -88,6 +88,7 @@ html body div#holder div.lrow div#header div.lrow div.headerbox.headernav a {
     background-repeat: no-repeat !important;
     background-position: center !important;
     background-size: cover !important;
+    padding-top: .9px !important;
 }
 
 /*Get Quest Screen*/
@@ -456,7 +457,7 @@ input#litechatbutton {
     background-color: #00000000 !important;
     color: #FFF !important;
     text-shadow: 1px 1px 2px black, 1px 1px 2px black, 1px 1px 2px black;
-    min-height: 50px !important;
+    min-height: 5px !important;
     /*border-color: #FFF;
     box-shadow: 0px 0px 1px #FFF, 0 0 2px #FFF, 0 0 7px #FFF;*/
 }
@@ -586,7 +587,6 @@ html body div#popupcontainer div#popupholder div div div#popuprescontainer div#p
 
 /* Header Bar All Information */
 #header {
-    height: auto !important;
     position: relative !important;
     text-align: left !important;
     border-radius: 12px;
