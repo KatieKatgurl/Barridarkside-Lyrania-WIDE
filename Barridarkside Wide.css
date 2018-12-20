@@ -233,6 +233,7 @@ html body div#popupcontainer div#popupholder div div div#popuprescontainer div#p
     text-align: center;
     margin: auto;
     margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 /*Guild members online*/
@@ -254,6 +255,7 @@ html body div#popupcontainer div#popupholder div div div#popuprescontainer div#p
     text-align: center;
     margin: auto;
     margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 /*Regular players online*/
@@ -275,6 +277,7 @@ html body div#popupcontainer div#popupholder div div div#popuprescontainer div#p
     text-align: center;
     margin: auto;
     margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 /*autos remaining*/
@@ -1190,6 +1193,7 @@ html body div#holder div#middlesection.lrow div#main div#content div#rightinfo i
     width: 60px !important;
     float: right !important;
     padding-bottom: 3px !important;
+    margin-top: 3px;
 }
 [href="javascript:closepage();"]:hover {
     color: #fff !important;
@@ -1206,6 +1210,7 @@ html body div#holder div#middlesection.lrow div#main div#content div#rightinfo i
     width: 60px !important;
     float: right !important;
     padding-bottom: 3px !important;
+    margin-top: 3px;
     text-decoration: none !important;
 }
 
@@ -1410,7 +1415,7 @@ div[style*="border-style:solid;border-width:1px;border-color:#660066"] img {
 #popupnav {
     text-align: center;
     color: white;
-    margin-top: 2px;
+    margin-top: 5px;
     padding-right: 25px;
     width: 700px;
     height: 27px !important;
