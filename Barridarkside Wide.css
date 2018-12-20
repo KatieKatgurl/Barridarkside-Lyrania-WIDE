@@ -1092,7 +1092,18 @@ html body div#holder div#middlesection.lrow div#side1 div#tstimer span#tsjob4 sp
     color: #FFF !important;
     text-shadow: 0px 0px 1px #F00, 0px 0px 1px #F00, 0px 0px 1px #F00 !important;
 }
-
+/*tradeskills popup ui*/
+html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div#tskills,
+html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div#tresources,
+html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div#tjobs {
+   margin-left: 100px; 
+}
+/*tradeskills non popup ui*/
+html body div#holder div#middlesection.lrow div#main div#content div#tskills,
+html body div#holder div#middlesection.lrow div#main div#content div#tresources,
+html body div#holder div#middlesection.lrow div#main div#content div#tjobs{
+    padding-left:175px;
+}
 /* House countdown (construction) */
 #side1[style="font-size:13px;margin-left:5px;"] {
     font-size: 10pt !important;
@@ -1449,9 +1460,11 @@ table#milestonestable th {
 }
 
 /*------------------------------------------------------------------------------------------------------------*/
-/*jade temple top text (hidden) (also BREAKS dungeon shop, motherfucker needs to die!)*/
+/*jade temple top text (hidden), AND apparently fucks up dungeon shop in non-popup ui mode*/
 html body div#holder div#middlesection.lrow div#main div#content div p {
-    display: block;
+    /*display: none;*/
+    width: 650px;
+    margin-left: 150px;
 }
 /*------------------------------------------------------------------------------------------------------------*/
 
