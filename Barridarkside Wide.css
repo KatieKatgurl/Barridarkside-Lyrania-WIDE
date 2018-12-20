@@ -85,7 +85,7 @@ html body div#holder div.lrow div#header div.lrow div.headerbox.headernav a {
 #holder {
     width: 99.9% !important;
     height: auto !important;
-    background-image: url("https://pre00.deviantart.net/3f51/th/pre/f/2015/328/a/9/star_wars_sith_wallpaper_1920x1080_by_blacklotusxx-d9hmt8z.jpg");
+    background-image: url("https://screenshotscdn.firefoxusercontent.com/images/b6e256a2-0727-410e-a0ab-5badd1f2ef51.png")!important;
     background-repeat: no-repeat !important;
     background-position: center !important;
     background-size: cover !important;
@@ -362,7 +362,7 @@ html body div#popupcontainer div#popupholder div div div#popuprescontainer div#p
 
 /*profile shit*/
 html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div#profileinfo {
-    background-image: url("https://pre00.deviantart.net/3f51/th/pre/f/2015/328/a/9/star_wars_sith_wallpaper_1920x1080_by_blacklotusxx-d9hmt8z.jpg");
+    background-image: url("https://screenshotscdn.firefoxusercontent.com/images/b6e256a2-0727-410e-a0ab-5badd1f2ef51.png") !important;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
