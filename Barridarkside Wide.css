@@ -1462,7 +1462,7 @@ table#milestonestable th {
 /*------------------------------------------------------------------------------------------------------------*/
 /*jade temple top text (hidden), AND apparently fucks up dungeon shop in non-popup ui mode*/
 html body div#holder div#middlesection.lrow div#main div#content div p {
-    /*display: none;*/
+    display: block;
     width: 650px;
     margin-left: 150px;
 }
