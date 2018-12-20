@@ -1397,11 +1397,11 @@ div[style*="border-style:solid;border-width:1px;border-color:#660066"] img {
     text-align: center !important;
     color: white !important;
     padding-left: 0px !important;
-    width: auto !important;
+    width: 150% !important;
     height: 26px !important;
     font-size: 11pt !important;
     margin-top: 3px !important;
-    margin-left: 155% !important;
+    margin-left: 130%;
 }
 /*menu for log*/
  /*#popupholder select#filter { 
