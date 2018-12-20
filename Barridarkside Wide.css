@@ -618,22 +618,7 @@ input {
     text-align: center;
 }
 
-#popupnav {
-    padding-right: 550px;
-    text-align: right;
-    background-color: black;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-/*Select Pet Menu*/
-select#Pet {
-    margin-top: 25px;
-    margin-right: 25% !important;
-}
-html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div.lrow div.flex-content div.lrow div.flex div#profileinfo {
-    margin-top: 25px;
-}
+
 /* Dropdown Selector */
 #mainnav {
     background-color: #000 !important;
@@ -1184,39 +1169,6 @@ html body div#holder div#middlesection.lrow div#main div#content div#rightinfo i
     box-shadow: 0px 0px 3px #f00, 0px 0px 3px #f00, 0px 0px 3px #f00 inset !important;
 }
 
-/*popup close button*/
-[href="javascript:closepage();"] {
-    font-weight: normal;
-    font-size: 12pt !important;
-    text-align: center;
-    border: 3px inset !important;
-    border-radius: 12px;
-    border-color: #000 !important;
-    box-shadow: 0px 0px 3px #f00, 0px 0px 3px #f00, 0px 0px 3px #f00 inset !important;
-    height:18px !important;
-    width: 60px !important;
-    float: right !important;
-    padding-bottom: 3px !important;
-}
-[href="javascript:closepage();"]:hover {
-    color: #fff !important;
-    text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00 !important;
-    background: #700 !important;
-    font-weight: normal !important;
-    font-size: 12pt !important;
-    text-align: center;
-    border: 3px inset !important;
-    border-radius: 12px;
-    border-color: #fff !important;
-    box-shadow: 0px 0px 3px silver, 0px 0px 3px silver, 0px 0px 3px silver inset !important;
-    height:18px !important;
-    width: 60px !important;
-    float: right !important;
-    padding-bottom: 3px !important;
-    text-decoration: none !important;
-}
-
-
 /*bulk color text (fix colors when stylish gets updated)*/
 body {
     background-color: #323232 !important;
@@ -1413,15 +1365,69 @@ div[style*="border-style:solid;border-width:1px;border-color:#660066"] img {
     background-color: #000;
     font-size: 12px;
     padding-left: 0px !important;
+    margin-top: 5px;
 }
 #popupnav {
-    text-align: center;
-    color: white;
-    padding-right: 25px;
-    width: 700px;
+    text-align: center !important;
+    color: white !important;
+    padding-right: 25px !important;
+    width: 700px !important;
     height: 27px !important;
     font-size: 11pt !important;
+    margin-top: 3px !important;
 }
+/*menu for log*/
+ /*#popupholder select#filter { 
+     margin-bottom: 25px !important; 
+}*/ 
+/*#popupnav {
+    padding-right: 550px;
+    text-align: right;
+    background-color: black;
+}*/
+
+/*Select Pet Menu*/
+select#Pet {
+    margin-right: 25% !important;
+}
+html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div.lrow div.flex-content div.lrow div.flex div#profileinfo {
+    margin-top: 25px;
+}
+
+/*popup close button*/
+[href="javascript:closepage();"] {
+    font-weight: normal;
+    font-size: 12pt !important;
+    text-align: center;
+    border: 3px inset !important;
+    border-radius: 12px;
+    border-color: #000 !important;
+    box-shadow: 0px 0px 3px #f00, 0px 0px 3px #f00, 0px 0px 3px #f00 inset !important;
+    height:18px !important;
+    width: 60px !important;
+    float: right !important;
+    padding-bottom: 3px !important;
+    margin-top: 1px;
+}
+[href="javascript:closepage();"]:hover {
+    color: #fff !important;
+    text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00 !important;
+    background: #700 !important;
+    font-weight: normal !important;
+    font-size: 12pt !important;
+    text-align: center;
+    border: 3px inset !important;
+    border-radius: 12px;
+    border-color: #fff !important;
+    box-shadow: 0px 0px 3px silver, 0px 0px 3px silver, 0px 0px 3px silver inset !important;
+    height:18px !important;
+    width: 60px !important;
+    float: right !important;
+    padding-bottom: 3px !important;
+    text-decoration: none !important;
+    margin-top: 1px;
+}
+
 
 tbody {
     color: white;
