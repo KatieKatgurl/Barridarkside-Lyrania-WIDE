@@ -327,6 +327,7 @@ html body div#popupcontainer div#popupholder div div div#popuprescontainer div#p
     margin-top: 1% !important;
     margin-bottom: -3% !important;
     padding-bottom: 1% !important;
+    margin-left: 25px !important;
     border-radius: 12px;
     border: white 3px;
     border-style: ridge;
@@ -358,6 +359,12 @@ html body div#holder div#middlesection.lrow div#main div#content div#housing div
 html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div#housing div#roomlist div span {
     color: #fff !important;
     text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00 !important;
+}
+
+/*house rooms "Rooms"*/
+html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div#housing div#roomlist p {
+    text-align: center;
+    padding-right: 25px;
 }
 
 /*profile shit*/
@@ -1507,12 +1514,6 @@ a:hover#ranking {
     box-shadow: 0px 0px 3px #f00, 0px 0px 3px #f00, 0px 0px 3px #f00 inset;
 }
 
-
-/*house rooms "Rooms"*/
-html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div#housing div#roomlist p {
-    text-align: center;
-    padding-right: 25px;
-}
 
 
 
