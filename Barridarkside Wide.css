@@ -1097,12 +1097,14 @@ html body div#popupcontainer div#popupholder div div div#popuprescontainer div#p
 html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div#tresources,
 html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div#tjobs {
    margin-left: 100px; 
+    text-align: left;
 }
 /*tradeskills non popup ui*/
 html body div#holder div#middlesection.lrow div#main div#content div#tskills,
 html body div#holder div#middlesection.lrow div#main div#content div#tresources,
 html body div#holder div#middlesection.lrow div#main div#content div#tjobs{
     padding-left:175px;
+    text-align: left;
 }
 /* House countdown (construction) */
 #side1[style="font-size:13px;margin-left:5px;"] {
