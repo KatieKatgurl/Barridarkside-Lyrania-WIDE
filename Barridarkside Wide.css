@@ -14,7 +14,7 @@
 
 /*Inventory*/
 ul#inventul {
-    padding-right: 93px;
+    padding-right: 0px;
 }
 #inventul li {
     display: inline-block;
@@ -32,38 +32,38 @@ ul#inventul {
 /*Jewelry*/
 div#inventdiv1 {
     display: inline-block;
-    padding-right: 50px;
+    padding-right: 0px;
     font-size: 10pt !important;
 }
 /*Maps*/
 div#inventdiv2 {
     text-align: center !important;
-    padding-right: 75px;
+    padding-right: 0px;
 }
 /*Orbs*/
 div#inventdiv3 {
     text-align: center !important;
-    padding-right: 75px;
+    padding-right: 0px;
 }
 /*Consumables*/
 div#inventdiv4 {
     text-align: center !important;
-    padding-right: 50px;
+    padding-right: 0px;
 }
 /*Resources*/
 div#inventdiv5 {
     text-align: center !important;
-    padding-right: 75px;
+    padding-right: 0px;
 }
 /*Potions*/
 div#inventdiv6 {
     text-align: center !important;
-    padding-right: 75px;
+    padding-right: 0px;
 }
 /*Misc*/
 div#inventdiv7{
     text-align: center !important;
-    padding-right: 50px;
+    padding-right: 0px;
 }
 
 /*top right clickables*/
@@ -1383,11 +1383,12 @@ div[style*="border-style:solid;border-width:1px;border-color:#660066"] img {
 #popupnav {
     text-align: center !important;
     color: white !important;
-    padding-right: 25px !important;
-    width: 700px !important;
+    padding-left: 40px !important;
+    width: 350px !important;
     height: 27px !important;
     font-size: 11pt !important;
     margin-top: 3px !important;
+    margin-left: 60% !important;
 }
 /*menu for log*/
  /*#popupholder select#filter { 
