@@ -22,7 +22,7 @@ html body div#popupcontainer div#popupholder div div div#popuprescontainer div#p
 }
 #jewellery {
     font-size: 12px !important;
-    padding: 15px !important;
+    padding: 5px !important;
 }
 
 /*Inventory selections*/
@@ -482,7 +482,7 @@ input#litechatbutton {
 
 /* Chat Text Input Windows */
 #inputchat {
-    width: 900px !important;
+    width: 60% !important;
     position: relative !important;
     font-size: 10pt !important;
     text-indent: 3px !important;
@@ -1396,16 +1396,21 @@ div[style*="border-style:solid;border-width:1px;border-color:#660066"] img {
 #popupnav {
     text-align: center !important;
     color: white !important;
-    padding-left: 40px !important;
-    width: 350px !important;
+    padding-left: 0px !important;
+    width: auto !important;
     height: 26px !important;
     font-size: 11pt !important;
     margin-top: 3px !important;
-    margin-left: 60% !important;
+    margin-left: 155% !important;
 }
 /*menu for log*/
  /*#popupholder select#filter { 
      margin-top: 25px !important; 
+}*/
+/*#popupnav {
+    padding-right: 550px;
+    text-align: right;
+    background-color: black;
 }*/
 
 /*Select Pet Menu*/
