@@ -33,6 +33,7 @@ ul#inventul {
 div#inventdiv1 {
     display: inline-block;
     padding-right: 50px;
+    font-size: 10pt !important;
 }
 /*Maps*/
 div#inventdiv2 {
