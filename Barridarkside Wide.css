@@ -1107,7 +1107,7 @@ html body div#holder div#middlesection.lrow div#side1 div#tstimer span#tsjob4 sp
     text-shadow: 0px 0px 2px #FF6200, 0 0 2px #FF4100, 0 0 2px #F00 !important;
 }
 html body div#holder div#middlesection.lrow div#side1 div#tstimer span#tsjob1 a b:after {
-    content: "     New Task Needed!" !important;
+    content: "     - New Task Needed!" !important;
     color: #EAFF00;
     text-shadow: 0px 0px 2px #FF6200, 0 0 2px #FF4100, 0 0 2px #F00;
 }
@@ -1141,12 +1141,19 @@ html body div#holder div#middlesection.lrow div#main div#content div#tjobs{
 
 /*00:00 time*/
 html body div#holder div#middlesection.lrow div#side1 span span#housetimer a b {
+    content: "build me!";
    color: #EAFF00 !important;
     text-shadow: 0px 0px 2px #FF6200, 0 0 2px #FF4100, 0 0 2px #F00 !important;
     font-weight: bold;
     font-size: 13px;
 }
-
+html body div#holder div#middlesection.lrow div#side1 span span#housetimer a b:after {
+    content: "     - Build Me!";
+    color: #EAFF00 !important;
+    text-shadow: 0px 0px 2px #FF6200, 0 0 2px #FF4100, 0 0 2px #F00 !important;
+    font-weight: bold;
+    font-size: 13px;
+}
 
 /* Current Guild TS Jobs: */
 #gtstimer {
