@@ -27,7 +27,7 @@ html body div#popupcontainer div#popupholder div div div#popuprescontainer div#p
 
 /*Inventory selections*/
 ul#inventul {
-    padding-right: 30px;
+    padding-right: 50px;
 }
 #inventul li {
     display: inline-block;
@@ -44,7 +44,7 @@ ul#inventul {
 /*Jewelry*/
 div#inventdiv1 {
     display: inline-block;
-    padding-right: 25px;
+    padding-right: 0px;
     font-size: 10pt !important;
 }
 /*Maps*/
@@ -1392,16 +1392,22 @@ div[style*="border-style:solid;border-width:1px;border-color:#660066"] img {
     font-size: 12px;
     padding-left: 0px !important;
     margin-top: 5px;
+    height: auto !important;
 }
-#popupnav {
+/*#popupnav {
     text-align: center !important;
     color: white !important;
-    padding-left: 0px !important;
+    padding-left: 75px !important;
     width: 700px !important;
     height: 26px !important;
     font-size: 11pt !important;
     margin-top: 3px !important;
     margin-left: 0% !important;
+}*/
+#popupnav {
+    width: 200px !important;
+    margin-left: 147% !important;
+    text-align: center !important;
 }
 /*menu for log*/
  /*#popupholder select#filter { 
@@ -1415,7 +1421,7 @@ div[style*="border-style:solid;border-width:1px;border-color:#660066"] img {
 
 /*Select Pet Menu*/
 select#Pet {
-    margin-right: 25% !important;
+    margin-right: 20% !important;
 }
 html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div.lrow div.flex-content div.lrow div.flex div#profileinfo {
     margin-top: 25px;
