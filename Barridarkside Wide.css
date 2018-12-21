@@ -27,7 +27,7 @@ html body div#popupcontainer div#popupholder div div div#popuprescontainer div#p
 
 /*Inventory selections*/
 ul#inventul {
-    padding-right: 50px;
+    padding-right: 0px;
 }
 #inventul li {
     display: inline-block;
@@ -36,6 +36,7 @@ ul#inventul {
     font-weight: bold !important;
 }
 #inventul li a {
+    text-align: center !important;
     text-decoration: none;
     font-size: 16px;
     color: #fff !important;
@@ -1406,7 +1407,7 @@ div[style*="border-style:solid;border-width:1px;border-color:#660066"] img {
 }*/
 #popupnav {
     width: 200px !important;
-    margin-left: 147% !important;
+    margin-left: 142% !important;
     text-align: center !important;
 }
 /*menu for log*/
