@@ -121,8 +121,17 @@ html body div#holder div#middlesection.lrow div#main div#content div span {
 }
 /*potion loadout during bosses*/
 select#potion {
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%); 
     width: 130px;
     margin-right: 5px;
+}
+html body div#holder div#middlesection.lrow div#main div#content div input,
+input#bb10520 {
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%); 
+}
+select#quickloadout,
+select#potion option {
+    background: black;
 }
 /*aboss dead screen*/
 html body div#holder div#middlesection.lrow div#main div#content div#contentBoss div div {
@@ -149,7 +158,7 @@ html body div#holder div#middlesection.lrow div#main div#content div#housing div
     background: red !important;
 }
 html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div#housing div div span div div {
-    background: red !important;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgb(210, 0, 0) 50%, rgba(0,0,0,1) 100%); 
     box-shadow: 0px 0px 1px black inset;
 }
 
@@ -230,10 +239,7 @@ div#cardcontainer {
 /*players online page*/
 /*Staff Online*/
 html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div#onlinelistcontainer div#onlineliststaff h5 {
-    background-image: url("https://i.imgur.com/9GXrGkY.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%); 
     font-size: 20px;
     color: #EEE;
     text-shadow: 0px 0px 3px #F00, 0px 0px 3px #F00, 0px 0px 3px #FF00FB;
@@ -252,10 +258,7 @@ html body div#popupcontainer div#popupholder div div div#popuprescontainer div#p
 
 /*Guild members online*/
 html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div#onlinelistcontainer div#onlinelistguild h5 {
-    background-image: url("https://i.imgur.com/9GXrGkY.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%); 
     font-size: 20px;
     color: #0CE300 !important;
     text-shadow: 0px 0px 3px #90F, 0px 0px 2px #3399ff, 0px 0px 3px #D700FF !important;
@@ -274,10 +277,7 @@ html body div#popupcontainer div#popupholder div div div#popuprescontainer div#p
 
 /*Regular players online*/
 html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div#onlinelistcontainer div#onlinelistother h5 {
-    background-image: url("https://i.imgur.com/9GXrGkY.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%); 
     font-size: 20px;
     color: #fff !important;
     text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00 !important;
@@ -308,9 +308,10 @@ div.lrow div.flex-content div.lrow div.strong.text-center.flex {
 /*Restarting... Autos*/
 div#stopauto.text-center.flex {
     margin-top: 0px;
-    font-size: 15pt !important;
-    color: #EAFF00;
-    text-shadow: 0px 0px 2px #FF6200, 0 0 2px #FF4100, 0 0 2px #F00;
+    font-size: 13pt !important;
+    color: #f00 !important;
+    text-shadow: 1px 1px 2px #000, 1px 1px 2px #000, 1px 1px 2px #000 !important;
+    font-style: oblique;
 }
 /*dungeon autos remaining*/
 html body div#holder div#middlesection.lrow div#main div#content div.lrow div.flex-content div.strong.text-center {
@@ -460,7 +461,9 @@ input#litechatbutton {
     border-radius: 12px !important;
     box-shadow: 0px 0px 3px #f00, 0px 0px 3px #f00, 0px 0px 3px #f00 inset !important;
     height: 20px !important;
-    margin-left: 5px !important;
+    margin-left: 0px !important;
+    cursor: pointer;
+    width: 20px !important;
 }
 /* Chat */
 #chatwindow {
@@ -497,6 +500,7 @@ input#litechatbutton {
     text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00 !important;
     text-align: left;
     font-weight: normal;
+    padding-left: 10px !important;
 }
 
 /*chat send button*/
@@ -505,19 +509,20 @@ html body div#holder div.lrow div#chat input#chatbutton {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;*/
-    background: black !important;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important; 
     color: #fff !important;
     text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00 !important;
     border-color: #000 !important;
     box-shadow: 0px 0px 3px #f00, 0px 0px 3px #f00, 0px 0px 3px #f00 inset !important;
     border-style: inset;
     text-align: center;
+    cursor: pointer;
 }
 
 /* Chat Channel Selector */
 #chatchannel {
     border-style: inset;
-    background-color: #000 !important;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%); 
     border-radius: 12px;
     border-color: #000 !important;
     box-shadow: 0px 0px 3px #f00, 0px 0px 3px #f00, 0px 0px 3px #f00 inset !important;
@@ -525,8 +530,8 @@ html body div#holder div.lrow div#chat input#chatbutton {
     text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00 !important;
     text-align: center;
     font-size: 10pt !important;
+    cursor: pointer;
 }
-
 
 
 
@@ -558,8 +563,8 @@ html body div#popupcontainer div#popupholder div div div#popuprescontainer div#p
 }
 
 /*Main Panels*/
-#side1 {
-    height: 381px;
+#side1 { /*left side*/
+    height: 380px;
     width: 50%;
     background-color: #00000000 !important;
     border: 3px;
@@ -570,8 +575,8 @@ html body div#popupcontainer div#popupholder div div div#popuprescontainer div#p
     text-align: left;
     color: #FFF;
 }
-#side2 {
-    height: 380px;
+#side2 { /*right side*/
+    height: 379px;
     width: 50%;
     background-color: #00000000 !important;
     border: 3px;
@@ -616,25 +621,33 @@ html body div#popupcontainer div#popupholder div div div#popuprescontainer div#p
     font-weight: normal !important;
 }
 
+option {
+    background-color: #000 !important;
+    cursor: pointer;
+}
 
-select,
-button,
+
 input {
     color: #fff !important;
     text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00 !important;
     border-radius: 12px !important;
-    background-color: black;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%); 
     font-size: 10pt !important;
     border: 3px inset;
     border-color: #000 !important;
     box-shadow: 0px 0px 3px #f00, 0px 0px 3px #f00, 0px 0px 3px #f00 inset !important;
     text-align: center;
 }
+select,
+button {
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important; 
+}
+
 
 
 /* Dropdown Selector */
 #mainnav {
-    background-color: #000 !important;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important; 
     border-radius: 12px;
     border: 3px inset;
     border-color: #000 !important;
@@ -651,11 +664,14 @@ input {
     top: -15px !important;
     cursor: pointer;
 }
-
+select#mainnav option {
+    background-color: #000 !important;
+    cursor: pointer;
+}
 /* hover over items pop-up. stats, jewelry, etc...*/
 .glt-elm {
     font-family: "Calibri";
-    background-image: url("https://i.imgur.com/9GXrGkY.jpg");
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important; 
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -708,7 +724,7 @@ html body div#popupcontainer div#popupholder div div div#popuprescontainer div#p
     text-align: left !important;
 }
 html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div div.panel div.panel-heading{
-    background-color: #1c1c1c !important;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important; 
     border-radius: 7px 7px 0px 0px !important;
 }
 /*non-popup ui log*/
@@ -1037,8 +1053,9 @@ html body div#holder div#middlesection.lrow div#side1 div#questtracker a span#qu
 
 /*not enough money lol*/
 html body div#holder div#middlesection.lrow div#side2 div#equipstuff b {
-    color: #EAFF00;
-    text-shadow: 0px 0px 2px #FF6200, 0 0 2px #FF4100, 0 0 2px #F00;
+    font-size: 12pt !important;
+    color: #f00 !important;
+    text-shadow: 1px 1px 2px #000, 1px 1px 2px #000, 1px 1px 2px #000 !important;
 }
 /* Equipment costs subscreen */
 #equipstuff {
@@ -1183,23 +1200,43 @@ html body div#holder div#middlesection.lrow div#main div#content div#rightinfo i
     border-radius: 12px;
     border-color: #000 !important;
     box-shadow: 0px 0px 3px #f00, 0px 0px 3px #f00, 0px 0px 3px #f00 inset !important;
-    background-color: black;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%); 
     color: #fff !important;
-    text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00 !important;
+    text-shadow: 1px 1px 2px #000, 1px 1px 2px #000, 1px 1px 2px #000 !important;
     font-size: 12pt !important;
-    margin-left: 34%;
     cursor: pointer;
+    margin-top: 5px !important;
 }
 #show_info:hover,
 #show_stats:hover,
 #show_staff:hover {
      font-size: 12pt !important;
-    background-color: #3a0071 !important;
+    color: #fff !important;
+    text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00 !important;
+    background-color: #a00 !important;
     text-align: center;
     border: 3px inset !important;
     border-radius: 12px;
     border-color: #fff !important;
     box-shadow: 0px 0px 3px #f00, 0px 0px 3px #f00, 0px 0px 3px #f00 inset !important;
+}
+select#stat_type {
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%); 
+        margin-bottom: 5px !important;
+    cursor: pointer;
+}
+select#stat_range {
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%); 
+        margin-bottom: 5px !important;
+    cursor: pointer;
+}
+select#stat_range option,
+select#stat_type option {
+    background: black;
+}
+/*(Est) Money/hr*/
+html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div#profileinfo div#battle_data span#stat_mph {
+    width: auto !important;
 }
 
 /*bulk color text (fix colors when stylish gets updated)*/
@@ -1415,6 +1452,14 @@ div[style*="border-style:solid;border-width:1px;border-color:#660066"] img {
     width: 200px !important;
     margin-left: 150% !important;
     text-align: center !important;
+    margin-top: 3px !important;
+}
+select#popupnav option {
+    background: black;
+}
+select#pet option,
+select#talcol option {
+    background: black !important;
 }
 /*menu for log*/
  /*#popupholder select#filter { 
@@ -1449,11 +1494,12 @@ html body div#popupcontainer div#popupholder div div div#popuprescontainer div#p
     padding-bottom: 3px !important;
     margin-top: 1px;
     margin-right: -5% !important;
+    cursor: pointer;
 }
 [href="javascript:closepage();"]:hover {
     color: #fff !important;
     text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00 !important;
-    background: #700 !important;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important; 
     font-weight: normal !important;
     font-size: 12pt !important;
     text-align: center;
@@ -1467,6 +1513,7 @@ html body div#popupcontainer div#popupholder div div div#popuprescontainer div#p
     padding-bottom: 3px !important;
     text-decoration: none !important;
     margin-top: 1px;
+    cursor: pointer;
 }
 
 
@@ -1489,14 +1536,7 @@ table#milestonestable th {
     border: none;
 }
 
-/*------------------------------------------------------------------------------------------------------------*/
-/*jade temple top text (hidden), AND apparently fucks up dungeon shop in non-popup ui mode*/
-html body div#holder div#middlesection.lrow div#main div#content div p {
-    display: block;
-    width: auto !important;
-    margin-left: 0%;
-}
-/*------------------------------------------------------------------------------------------------------------*/
+
  
 table#milestonestable {
     border-collapse: collapse;
@@ -1532,11 +1572,14 @@ a#ranking {
     border-style: ridge;
     border-color: #000;
     box-shadow: 0px 0px 1px #f00, 0px 0px 1px #f00, 0px 0px 1px #f00 !important;
-    padding: 2px 2px;
+    padding: 1px 5px 1px 5px;
     text-align: center;
     display: inline-block;
-    margin-bottom: 2px;
-    background-color: #606060;
+    background-image: url("https://i.imgur.com/9GXrGkY.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 12px;
 }
 
 a#ranking-selected {
@@ -1546,22 +1589,19 @@ a#ranking-selected {
     font-size: 11pt;
     border:3px;
     border-style: inset;
+    border-radius: 12px;
     border-color: #fff;
     box-shadow: 0px 0px 3px #f00, 0px 0px 3px #f00, 0px 0px 3px #f00 inset !important;
-    padding: 2px 2px;
+    padding: 1px 5px 1px 5px;
     text-align: center;
     display: inline-block;
-    margin-bottom: 2px;
-    background-image: url("https://i.imgur.com/9GXrGkY.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%); 
 }
 
 a:hover#ranking {
-    color: #EAFF00;
-    text-shadow: 0px 0px 1px #FF6200, 0px 0px 1px #FF4100, 0px 0px 1px #F00;
-    background-color: #606060 !important;
+    color: #EAFF00 !important;
+    text-shadow: 0px 0px 1px #FF6200, 0px 0px 1px #FF4100, 0px 0px 1px #F00 !important;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%); 
     border:3px;
     border-style: inset;
     border-color: #000;
@@ -1571,15 +1611,18 @@ a:hover#ranking {
 
 
 
-/*Chat Commands, Rules, Problem?!, FAQ*/
-html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div b {
-    color: red !important;
-    text-shadow: 1px 1px 2px black, 1px 1px 2px black, 1px 1px 2px black;    
-    font-weight: normal !important;
-    font-size: 11pt !important;
-}
+/*commands window*/
 html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div h4 {
-    color: yellow;
-    font-size: 12pt;
-    text-decoration: underline;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%); 
+    width: 200px;
+    color: #fff !important;
+    text-shadow: 1px 1px 2px black, 1px 1px 2px black, 1px 1px 2px black !important;    
+    font-size: 12pt !important;
+    text-decoration: underline #fff !important;
+    text-align: center;
+    padding-bottom:5px;
+    border: 3px inset !important;
+    border-radius: 12px;
+    border-color: #000 !important;
+    box-shadow: 0px 0px 3px #f00, 0px 0px 3px #f00, 0px 0px 3px #f00 inset !important;
 }
