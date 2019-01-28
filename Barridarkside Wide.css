@@ -4,6 +4,83 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
 
+
+/*Login/Register Homepage*/
+/*login screen background color*/
+html body {
+    background-color: black;
+}
+html {
+    background-color: black;
+}
+html body div#container {
+    color: #fff !important;
+    text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00 !important;
+    border: 3px;
+    border-style: inset;
+    border-radius: 12px;
+    border-color: #000 !important;
+    box-shadow: 0px 0px 3px #f00, 0px 0px 3px #f00, 0px 0px 3px #f00 inset !important;
+    background-color: black;
+}
+html body div#container h1 span {
+    color: #fff !important;
+    text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00 !important;
+}
+html body div#container div#login form span input {
+    margin-left: -10px !important;
+}
+/*--------------------------------------------------------------------------------------------------*/
+
+
+
+
+ /*hover on buttons, text fields, etc....*/
+#mainnav:hover,
+#stopauto input:hover,
+input#bb89117:hover,
+html body div#holder div#middlesection.lrow div#main div#content div input:hover,
+select#mob:hover,
+select#maps:hover,
+select#popupnav:hover,
+select#pet:hover,
+input#equipbutton:hover,
+input#feedpet:hover,
+div#post input:hover,
+input#mailcost:hover,
+select#includetype1:hover,
+input#mainchatbutton:hover,
+input#tradechatbutton:hover,
+input#auctionchatbutton:hover,
+input#globalschatbutton:hover,
+input#areachatbutton:hover,
+input#pubchatbutton:hover,
+input#litechatbutton:hover,
+#chatchannel:hover,
+html body div#holder div.lrow div#chat input#chatbutton:hover,
+select#potion:hover,
+select#quickloadout:hover,
+html body div#holder div#middlesection.lrow div#main div#content input:hover,
+select#inkcolour:hover,
+#profile_data input:hover,
+#show_info:hover,
+#show_stats:hover,
+#show_staff:hover,
+select#stat_type:hover,
+select#stat_range:hover,
+select#stat_type:hover,
+select#stat_range:hover,
+input:hover,
+select:hover {
+    color: #fff !important;
+    text-shadow: 1px 1px 2px #000, 1px 1px 2px #000, 1px 1px 2px #000 !important;
+    border: 3px inset !important;
+    border-radius: 12px;
+    border-color: #fff !important;
+    box-shadow: 0px 0px 3px #f00, 0px 0px 3px #f00, 0px 0px 3px #f00 inset !important;
+}
+
+
 /*You have 10 pieces of jewellery equipped out of a total of 10 slots available.*/
 html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div#inventdiv1 font b {
     text-align: center;
@@ -120,19 +197,22 @@ html body div#holder div#middlesection.lrow div#main div#content div span {
     font-weight: bold;
 }
 /*potion loadout during bosses*/
-select#potion {
+select#potion,
+select#quickloadout {
     background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%); 
-    width: 130px;
+    width: 150px;
     margin-right: 5px;
 }
+
 html body div#holder div#middlesection.lrow div#main div#content div input,
 input#bb10520 {
     background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%); 
 }
-select#quickloadout,
+select#quickloadout option,
 select#potion option {
     background: black;
 }
+
 /*aboss dead screen*/
 html body div#holder div#middlesection.lrow div#main div#content div#contentBoss div div {
     text-align: center;
@@ -383,8 +463,19 @@ html body div#popupcontainer div#popupholder div div div#popuprescontainer div#p
 html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div#housing div#roomlist p {
     text-align: center;
     padding-right: 25px;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important; 
 }
-
+html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div#housing div#roomlist p:hover {
+    text-align: center;
+    padding-right: 25px;
+    color: #fff !important;
+    text-shadow: 1px 1px 2px #000, 1px 1px 2px #000, 1px 1px 2px #000 !important;
+    border: 3px inset !important;
+    border-radius: 12px;
+    border-color: #fff !important;
+    box-shadow: 0px 0px 3px #f00, 0px 0px 3px #f00, 0px 0px 3px #f00 inset !important;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important; 
+}
 /*profile shit*/
 html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div#profileinfo {
     background-image: url("https://screenshotscdn.firefoxusercontent.com/images/b6e256a2-0727-410e-a0ab-5badd1f2ef51.png")!important;
@@ -465,6 +556,7 @@ input#litechatbutton {
     cursor: pointer;
     width: 20px !important;
 }
+
 /* Chat */
 #chatwindow {
     margin-top: .8%;
@@ -495,7 +587,7 @@ input#litechatbutton {
     border-color: #000 !important;
     box-shadow: 0px 0px 3px #f00, 0px 0px 3px #f00, 0px 0px 3px #f00 inset !important;
     border-radius: 0px 0px 12px 12px;
-    background-color: #00000000!important;
+    background: #0000!important;
     color: #fff !important;
     text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00 !important;
     text-align: left;
@@ -519,6 +611,7 @@ html body div#holder div.lrow div#chat input#chatbutton {
     cursor: pointer;
 }
 
+
 /* Chat Channel Selector */
 #chatchannel {
     border-style: inset;
@@ -534,11 +627,10 @@ html body div#holder div.lrow div#chat input#chatbutton {
 }
 
 
-
 body {
     font-family: "Calibri";
     background-color: black !important;
-    background: -webkit-linear-gradient(top, #000 0%, #000 50%, #000 100%);
+    background: -webkit-linear-gradient(top, #000 0%, #860000 50%, #000 100%);
 }
 
 
@@ -621,12 +713,59 @@ html body div#popupcontainer div#popupholder div div div#popuprescontainer div#p
     font-weight: normal !important;
 }
 
-option {
-    background-color: #000 !important;
-    cursor: pointer;
+/*Mail related*/
+/*mail message input window*/
+textarea#message {
+    color: #fff !important;
+    text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00 !important;
+    background: #000;
+    margin-top: 10px !important;
+    padding-top: 5px !important;
+    padding-left: 7px !important;
+    padding-right: 2px !important;
+    min-width: 600px !important;
+    min-height: 250px !important;
+    cursor: default;
+    border-radius: 12px;
+    border: 3px inset;
+    border-color: #000 !important;
+    box-shadow: 0px 0px 3px #f00, 0px 0px 3px #f00, 0px 0px 3px #f00 inset !important;
+}
+input#rec {
+    padding-left: 5px;
+}
+input#subject {
+    margin-top: 10px !important;
+    width: 250px;
+}
+input#mailcost {
+    margin-left: 95px;
+}
+input#includeamount1 {
+    width: 100px !important;
+    text-align: left;
+    padding-left: 10px !important;
+}
+#sendp,
+#sendg,
+#sends,
+#sendc {
+    width: 75px !important;
+    margin-left: 5px;
+}
+html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div#post,
+#dp {
+    font-size: 11pt;
+    color: #fff !important;
+    text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00 !important;
 }
 
 
+option {
+    text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00 !important;
+    background-color: #000 !important;
+    cursor: pointer;
+}
 input {
     color: #fff !important;
     text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00 !important;
@@ -665,9 +804,13 @@ button {
     cursor: pointer;
 }
 select#mainnav option {
+    color: #fff !important;
+    text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00 !important;
     background-color: #000 !important;
     cursor: pointer;
 }
+
+
 /* hover over items pop-up. stats, jewelry, etc...*/
 .glt-elm {
     font-family: "Calibri";
@@ -690,6 +833,11 @@ select#mainnav option {
     font-weight: normal !important;
 }
 /*older updates*/
+div.panel-heading {
+    color: red;
+    text-shadow: 1px 1px 2px #000, 1px 1px 2px #000, 1px 1px 2px #000 !important;
+    font-size: 12pt;
+}
 div.panel-heading a {
     color: red;
     font-size: 12pt;
@@ -1202,38 +1350,35 @@ html body div#holder div#middlesection.lrow div#main div#content div#rightinfo i
     box-shadow: 0px 0px 3px #f00, 0px 0px 3px #f00, 0px 0px 3px #f00 inset !important;
     background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%); 
     color: #fff !important;
-    text-shadow: 1px 1px 2px #000, 1px 1px 2px #000, 1px 1px 2px #000 !important;
-    font-size: 12pt !important;
+    text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00 !important;
+    font-size: 10pt !important;
     cursor: pointer;
     margin-top: 5px !important;
 }
 #show_info:hover,
 #show_stats:hover,
-#show_staff:hover {
-     font-size: 12pt !important;
-    color: #fff !important;
-    text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00 !important;
-    background-color: #a00 !important;
+#show_staff:hover,
+select#stat_type:hover,
+select#stat_range:hover,
+select#stat_type:hover,
+select#stat_range:hover{
+    font-size: 10pt !important;
     text-align: center;
-    border: 3px inset !important;
-    border-radius: 12px;
-    border-color: #fff !important;
-    box-shadow: 0px 0px 3px #f00, 0px 0px 3px #f00, 0px 0px 3px #f00 inset !important;
 }
-select#stat_type {
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%); 
-        margin-bottom: 5px !important;
-    cursor: pointer;
-}
+select#stat_type,
 select#stat_range {
+    font-size: 10pt !important;
     background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%); 
-        margin-bottom: 5px !important;
+    margin-bottom: 5px !important;
     cursor: pointer;
 }
 select#stat_range option,
 select#stat_type option {
     background: black;
 }
+
+
+
 /*(Est) Money/hr*/
 html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div#profileinfo div#battle_data span#stat_mph {
     width: auto !important;
@@ -1484,10 +1629,13 @@ html body div#popupcontainer div#popupholder div div div#popuprescontainer div#p
     font-weight: normal;
     font-size: 12pt !important;
     text-align: center;
+    color: #fff !important;
+    text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00 !important;
     border: 3px inset !important;
     border-radius: 12px 7px 0px 12px;
     border-color: #000 !important;
     box-shadow: 0px 0px 3px #f00, 0px 0px 3px #f00, 0px 0px 3px #f00 inset !important;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%); 
     height:18px !important;
     width: 60px !important;
     float: right !important;
@@ -1498,7 +1646,7 @@ html body div#popupcontainer div#popupholder div div div#popuprescontainer div#p
 }
 [href="javascript:closepage();"]:hover {
     color: #fff !important;
-    text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00 !important;
+    text-shadow: 1px 1px 2px #000, 1px 1px 2px #000, 1px 1px 2px #000 !important;
     background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important; 
     font-weight: normal !important;
     font-size: 12pt !important;
@@ -1584,8 +1732,9 @@ a#ranking {
 
 a#ranking-selected {
     color: #fff !important;
-    text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00 !important;
+    text-shadow: 0px 0px 1px #f00, 0px 0px 1px #f00, 0px 0px 1px #f00 !important;
     text-decoration: none;
+    font-style: normal;
     font-size: 11pt;
     border:3px;
     border-style: inset;
@@ -1599,8 +1748,8 @@ a#ranking-selected {
 }
 
 a:hover#ranking {
-    color: #EAFF00 !important;
-    text-shadow: 0px 0px 1px #FF6200, 0px 0px 1px #FF4100, 0px 0px 1px #F00 !important;
+    color: #fff !important;
+    text-shadow: 1px 1px 2px black, 1px 1px 2px black, 1px 1px 2px black !important;   
     background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%); 
     border:3px;
     border-style: inset;
@@ -1614,15 +1763,19 @@ a:hover#ranking {
 /*commands window*/
 html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div h4 {
     background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%); 
-    width: 200px;
+    width: auto;
     color: #fff !important;
     text-shadow: 1px 1px 2px black, 1px 1px 2px black, 1px 1px 2px black !important;    
     font-size: 12pt !important;
-    text-decoration: underline #fff !important;
+    text-decoration: none !important;
     text-align: center;
-    padding-bottom:5px;
+    padding-bottom:0px;
     border: 3px inset !important;
     border-radius: 12px;
     border-color: #000 !important;
     box-shadow: 0px 0px 3px #f00, 0px 0px 3px #f00, 0px 0px 3px #f00 inset !important;
+}
+
+input#bb {
+    margin-bottom: 5px !important;
 }
