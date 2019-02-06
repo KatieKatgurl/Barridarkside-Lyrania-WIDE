@@ -4,35 +4,11 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
 
-
-/*Login/Register Homepage*/
-/*login screen background color*/
-html body {
-    background-color: black;
-}
-html {
-    background-color: black;
-}
-html body div#container {
+/*profile guild name/partner name*/
+html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div#profileinfo div#profile_data a {
     color: #fff !important;
-    text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00 !important;
-    border: 3px;
-    border-style: inset;
-    border-radius: 12px;
-    border-color: #000 !important;
-    box-shadow: 0px 0px 3px #f00, 0px 0px 3px #f00, 0px 0px 3px #f00 inset !important;
-    background-color: black;
+    text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00!important;
 }
-html body div#container h1 span {
-    color: #fff !important;
-    text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00 !important;
-}
-html body div#container div#login form span input {
-    margin-left: -10px !important;
-}
-/*--------------------------------------------------------------------------------------------------*/
-
-
 
 
  /*hover on buttons, text fields, etc....*/
@@ -49,13 +25,6 @@ input#feedpet:hover,
 div#post input:hover,
 input#mailcost:hover,
 select#includetype1:hover,
-input#mainchatbutton:hover,
-input#tradechatbutton:hover,
-input#auctionchatbutton:hover,
-input#globalschatbutton:hover,
-input#areachatbutton:hover,
-input#pubchatbutton:hover,
-input#litechatbutton:hover,
 #chatchannel:hover,
 html body div#holder div.lrow div#chat input#chatbutton:hover,
 select#potion:hover,
@@ -71,27 +40,120 @@ select#stat_range:hover,
 select#stat_type:hover,
 select#stat_range:hover,
 input:hover,
-select:hover {
+select:hover,
+html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div div button:hover,
+input#mainchatbutton:hover,
+input#tradechatbutton:hover,
+input#auctionchatbutton:hover,
+input#globalschatbutton:hover,
+input#areachatbutton:hover,
+input#pubchatbutton:hover,
+input#litechatbutton:hover {
+    font-size: 10pt !important;
     color: #fff !important;
     text-shadow: 1px 1px 2px #000, 1px 1px 2px #000, 1px 1px 2px #000 !important;
     border: 3px inset !important;
-    border-radius: 12px;
+    border-radius: 12px !important;
     border-color: #fff !important;
     box-shadow: 0px 0px 3px #f00, 0px 0px 3px #f00, 0px 0px 3px #f00 inset !important;
+    background: rgb(0,0,0) !important;
+    background: -moz-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
+    background: -webkit-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1) !important;
+}
+#mainnav,
+#stopauto input,
+input#bb89117,
+html body div#holder div#middlesection.lrow div#main div#content div input,
+select#mob,
+select#maps,
+select#popupnav,
+select#pet,
+input#equipbutton,
+input#feedpet,
+div#post input,
+input#mailcost,
+select#includetype1,
+#chatchannel,
+html body div#holder div.lrow div#chat input#chatbutton,
+select#potion,
+select#quickloadout,
+html body div#holder div#middlesection.lrow div#main div#content input,
+select#inkcolour,
+#profile_data input,
+#show_info,
+#show_stats,
+#show_staff,
+select#stat_type,
+select#stat_range,
+select#stat_type,
+select#stat_range,
+input,
+select,
+html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div div button,
+input#mainchatbutton,
+input#tradechatbutton,
+input#auctionchatbutton,
+input#globalschatbutton,
+input#areachatbutton,
+input#pubchatbutton,
+input#litechatbutton {
+    font-size: 10pt !important;
+    color: #fff !important;
+    text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00!important;
+    border: 3px !important;
+    border-style: inset !important;
+    border-radius: 12px !important;
+    border-color: #000 !important;
+    box-shadow: 0px 0px 3px #f00, 0px 0px 3px #f00, 0px 0px 3px #f00 inset !important;
+    background: rgb(0,0,0) !important;
+    background: -moz-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
+    background: -webkit-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1) !important;
+}
+select#gemstuff option {
+    color: #fff !important;
+    text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00!important;
 }
 
+/*level up and pet procs in battle screen*/
+span#levelgain {
+    color: #fff !important;
+    text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00!important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    text-decoration: none !important;
+    
+}
+span.pet_proc {
+    color: #EAFF00 !important;
+    text-shadow: 0px 0px 1px #FF6200, 0px 0px 1px #FF4100, 0px 0px 1px #F00 !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    text-decoration: none !important;
+}
+/*Quad*/
+html body div#holder div#middlesection.lrow div#main div#content div.lrow div.flex-content span span {
+    color: #fff !important;
+    text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00!important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    text-decoration: none !important;
+}
 
 /*You have 10 pieces of jewellery equipped out of a total of 10 slots available.*/
 html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div#inventdiv1 font b {
     text-align: center;
-    color: #f00 !important;
+    color: #fff !important;
+    text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00 !important;
     margin-left: 5% !important;
 }
 /*Unequipped Jewelry*/
 html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div#inventdiv1 b {
     color: #0f0 !important; 
 }
-
 
 #skills {
     font-size: 10px;
@@ -199,14 +261,22 @@ html body div#holder div#middlesection.lrow div#main div#content div span {
 /*potion loadout during bosses*/
 select#potion,
 select#quickloadout {
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%); 
+    background: rgb(0,0,0) !important;
+    background: -moz-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
+    background: -webkit-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1) !important;
     width: 150px;
     margin-right: 5px;
 }
 
 html body div#holder div#middlesection.lrow div#main div#content div input,
 input#bb10520 {
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%); 
+    background: rgb(0,0,0) !important;
+    background: -moz-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
+    background: -webkit-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1) !important;
 }
 select#quickloadout option,
 select#potion option {
@@ -235,11 +305,15 @@ html body div#holder div#middlesection.lrow div#main div#content div#housing div
     max-width: 250px !important;
 }
 html body div#holder div#middlesection.lrow div#main div#content div#housing div div span div div {
-    background: red !important;
+    background: #f00 !important;
 }
 html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div#housing div div span div div {
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgb(210, 0, 0) 50%, rgba(0,0,0,1) 100%); 
-    box-shadow: 0px 0px 1px black inset;
+    background: rgb(0,0,0) !important;
+    background: -moz-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
+    background: -webkit-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgb(255, 0, 0) 60%, rgba(0,0,0,1) 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1) !important;
+    box-shadow: 0px 0px 1px #000, 0px 0px 1px #000, 0px 0px 1px #000 inset !important;
 }
 
 /* Jade Temple */
@@ -319,7 +393,11 @@ div#cardcontainer {
 /*players online page*/
 /*Staff Online*/
 html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div#onlinelistcontainer div#onlineliststaff h5 {
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%); 
+    background: rgb(0,0,0) !important;
+    background: -moz-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
+    background: -webkit-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1) !important;
     font-size: 20px;
     color: #EEE;
     text-shadow: 0px 0px 3px #F00, 0px 0px 3px #F00, 0px 0px 3px #FF00FB;
@@ -338,7 +416,11 @@ html body div#popupcontainer div#popupholder div div div#popuprescontainer div#p
 
 /*Guild members online*/
 html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div#onlinelistcontainer div#onlinelistguild h5 {
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%); 
+    background: rgb(0,0,0) !important;
+    background: -moz-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
+    background: -webkit-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1) !important;
     font-size: 20px;
     color: #0CE300 !important;
     text-shadow: 0px 0px 3px #90F, 0px 0px 2px #3399ff, 0px 0px 3px #D700FF !important;
@@ -357,7 +439,11 @@ html body div#popupcontainer div#popupholder div div div#popuprescontainer div#p
 
 /*Regular players online*/
 html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div#onlinelistcontainer div#onlinelistother h5 {
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%); 
+    background: rgb(0,0,0) !important;
+    background: -moz-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
+    background: -webkit-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1) !important;
     font-size: 20px;
     color: #fff !important;
     text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00 !important;
@@ -463,7 +549,11 @@ html body div#popupcontainer div#popupholder div div div#popuprescontainer div#p
 html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div#housing div#roomlist p {
     text-align: center;
     padding-right: 25px;
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important; 
+    background: rgb(0,0,0) !important;
+    background: -moz-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
+    background: -webkit-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1) !important;
 }
 html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div#housing div#roomlist p:hover {
     text-align: center;
@@ -474,7 +564,11 @@ html body div#popupcontainer div#popupholder div div div#popuprescontainer div#p
     border-radius: 12px;
     border-color: #fff !important;
     box-shadow: 0px 0px 3px #f00, 0px 0px 3px #f00, 0px 0px 3px #f00 inset !important;
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important; 
+    background: rgb(0,0,0) !important;
+    background: -moz-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
+    background: -webkit-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1) !important;
 }
 /*profile shit*/
 html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div#profileinfo {
@@ -546,15 +640,12 @@ input#globalschatbutton,
 input#areachatbutton,
 input#pubchatbutton,
 input#litechatbutton {
-    border: 3px #f00!important;
-    border-style: ridge !important;
-    border-color: #000!important;
-    border-radius: 12px !important;
-    box-shadow: 0px 0px 3px #f00, 0px 0px 3px #f00, 0px 0px 3px #f00 inset !important;
     height: 20px !important;
     margin-left: 0px !important;
     cursor: pointer;
     width: 20px !important;
+    border-style: inset !important;
+    background: #0000 !important;
 }
 
 /* Chat */
@@ -590,7 +681,7 @@ input#litechatbutton {
     background: #0000!important;
     color: #fff !important;
     text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00 !important;
-    text-align: left;
+    text-align: left !important;
     font-weight: normal;
     padding-left: 10px !important;
 }
@@ -601,7 +692,11 @@ html body div#holder div.lrow div#chat input#chatbutton {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;*/
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important; 
+    background: rgb(0,0,0) !important;
+    background: -moz-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
+    background: -webkit-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1) !important;
     color: #fff !important;
     text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00 !important;
     border-color: #000 !important;
@@ -615,7 +710,11 @@ html body div#holder div.lrow div#chat input#chatbutton {
 /* Chat Channel Selector */
 #chatchannel {
     border-style: inset;
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%); 
+    background: rgb(0,0,0) !important;
+    background: -moz-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
+    background: -webkit-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1) !important;
     border-radius: 12px;
     border-color: #000 !important;
     box-shadow: 0px 0px 3px #f00, 0px 0px 3px #f00, 0px 0px 3px #f00 inset !important;
@@ -624,13 +723,18 @@ html body div#holder div.lrow div#chat input#chatbutton {
     text-align: center;
     font-size: 10pt !important;
     cursor: pointer;
+    width: 100px;
 }
 
 
 body {
     font-family: "Calibri";
     background-color: black !important;
-    background: -webkit-linear-gradient(top, #000 0%, #860000 50%, #000 100%);
+    background: rgb(0,0,0) !important;
+    background: -moz-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
+    background: -webkit-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1) !important;
 }
 
 
@@ -765,28 +869,48 @@ option {
     text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00 !important;
     background-color: #000 !important;
     cursor: pointer;
+    text-align: center !important;
 }
 input {
     color: #fff !important;
     text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00 !important;
     border-radius: 12px !important;
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%); 
+    background: rgb(0,0,0) !important;
+    background: -moz-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
+    background: -webkit-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1) !important;
     font-size: 10pt !important;
     border: 3px inset;
     border-color: #000 !important;
     box-shadow: 0px 0px 3px #f00, 0px 0px 3px #f00, 0px 0px 3px #f00 inset !important;
-    text-align: center;
+    text-align: center !important;
 }
 select,
 button {
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important; 
+    background: rgb(0,0,0) !important;
+    background: -moz-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
+    background: -webkit-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1) !important;
+    color: #fff !important;
+    text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00 !important;
+    border-radius: 12px !important;
+    border: 3px inset;
+    border-color: #000 !important;
+    box-shadow: 0px 0px 3px #f00, 0px 0px 3px #f00, 0px 0px 3px #f00 inset !important;
+    text-align: center !important;
 }
 
 
 
 /* Dropdown Selector */
 #mainnav {
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important; 
+    background: rgb(0,0,0) !important;
+    background: -moz-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
+    background: -webkit-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1) !important;
     border-radius: 12px;
     border: 3px inset;
     border-color: #000 !important;
@@ -814,7 +938,11 @@ select#mainnav option {
 /* hover over items pop-up. stats, jewelry, etc...*/
 .glt-elm {
     font-family: "Calibri";
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important; 
+    background: rgb(0,0,0) !important;
+    background: -moz-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
+    background: -webkit-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1) !important;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -872,7 +1000,11 @@ html body div#popupcontainer div#popupholder div div div#popuprescontainer div#p
     text-align: left !important;
 }
 html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div div.panel div.panel-heading{
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important; 
+    background: rgb(0,0,0) !important;
+    background: -moz-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
+    background: -webkit-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1) !important;
     border-radius: 7px 7px 0px 0px !important;
 }
 /*non-popup ui log*/
@@ -1050,13 +1182,13 @@ html body div#holder div#middlesection.lrow div#main div#content div div.panel d
     padding-left: 28px;
 }
 #emeraldsli2 {
-    padding-left: 16px;
+    padding-left: 14px;
 }
 #opalsli2 {
     padding-left: 33px;
 }
 #Healthli {
-    padding-left: 20px;
+    padding-left: 19px;
 }
 #Attackli {
     padding-left: 21px;
@@ -1348,12 +1480,17 @@ html body div#holder div#middlesection.lrow div#main div#content div#rightinfo i
     border-radius: 12px;
     border-color: #000 !important;
     box-shadow: 0px 0px 3px #f00, 0px 0px 3px #f00, 0px 0px 3px #f00 inset !important;
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%); 
+    background: rgb(0,0,0) !important;
+    background: -moz-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
+    background: -webkit-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1) !important;
     color: #fff !important;
     text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00 !important;
     font-size: 10pt !important;
     cursor: pointer;
     margin-top: 5px !important;
+    margin-left: 170px !important;
 }
 #show_info:hover,
 #show_stats:hover,
@@ -1368,7 +1505,11 @@ select#stat_range:hover{
 select#stat_type,
 select#stat_range {
     font-size: 10pt !important;
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%); 
+    background: rgb(0,0,0) !important;
+    background: -moz-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
+    background: -webkit-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1) !important;
     margin-bottom: 5px !important;
     cursor: pointer;
 }
@@ -1635,7 +1776,11 @@ html body div#popupcontainer div#popupholder div div div#popuprescontainer div#p
     border-radius: 12px 7px 0px 12px;
     border-color: #000 !important;
     box-shadow: 0px 0px 3px #f00, 0px 0px 3px #f00, 0px 0px 3px #f00 inset !important;
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%); 
+    background: rgb(0,0,0) !important;
+    background: -moz-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
+    background: -webkit-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1) !important;
     height:18px !important;
     width: 60px !important;
     float: right !important;
@@ -1647,7 +1792,11 @@ html body div#popupcontainer div#popupholder div div div#popuprescontainer div#p
 [href="javascript:closepage();"]:hover {
     color: #fff !important;
     text-shadow: 1px 1px 2px #000, 1px 1px 2px #000, 1px 1px 2px #000 !important;
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important; 
+    background: rgb(0,0,0) !important;
+    background: -moz-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
+    background: -webkit-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1) !important;
     font-weight: normal !important;
     font-size: 12pt !important;
     text-align: center;
@@ -1750,7 +1899,11 @@ a#ranking-selected {
 a:hover#ranking {
     color: #fff !important;
     text-shadow: 1px 1px 2px black, 1px 1px 2px black, 1px 1px 2px black !important;   
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%); 
+    background: rgb(0,0,0) !important;
+    background: -moz-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
+    background: -webkit-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1) !important;
     border:3px;
     border-style: inset;
     border-color: #000;
@@ -1762,7 +1915,11 @@ a:hover#ranking {
 
 /*commands window*/
 html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div h4 {
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%); 
+    background: rgb(0,0,0) !important;
+    background: -moz-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
+    background: -webkit-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1) !important;
     width: auto;
     color: #fff !important;
     text-shadow: 1px 1px 2px black, 1px 1px 2px black, 1px 1px 2px black !important;    
@@ -1778,4 +1935,10 @@ html body div#popupcontainer div#popupholder div div div#popuprescontainer div#p
 
 input#bb {
     margin-bottom: 5px !important;
+}
+/*red text in commands*/
+html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div b {
+    font-size: 12pt !important;
+    color: red !important;
+    font-weight: normal !important;
 }
