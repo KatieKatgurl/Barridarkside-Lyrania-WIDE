@@ -1,16 +1,65 @@
 /*Barricade's Lyrania Theme --Barridarkside [Lyrania] WIDE*/
-/*to be used OVER the BLACK THEME and MUST be in widescreen mode*/
+/*to be used OVER the BLACK THEME and MUST be in widescreen mode & Popup UI*/
 /*go to Dropdown Menu > Settings > Display > Use Widescreen Mode > Yes > Refresh > Profit!*/
 @namespace url(http://www.w3.org/1999/xhtml);
 
-
+/*MY name in header*/
+div#header > div.lrow > div:nth-child(1) > a,
+div#rankli > a:nth-child(1) {
+    color: #EAFF00 !important;
+    text-shadow: 0px 0px 1px #FF6200, 0px 0px 1px #FF4100, 0px 0px 1px #F00 !important;
+}
+.bonuschannel,
+#autosLeft,
+#mobsLeft,
+#content > a:nth-child(4), /*[Return to Battle](aboss screen)*/
+.text-center > a:nth-child(7) /*[Return to Battle](area screen)*/ {
+    color: #EAFF00 !important;
+    text-shadow: 0px 0px 1px #FF6200, 0px 0px 1px #FF4100, 0px 0px 1px #F00 !important;
+    font-style: normal !important;
+}
+div.headerbox:nth-child(2) > b:nth-child(4) > span:nth-child(1) {
+    display: none !important;
+}
 /*profile guild name/partner name*/
 html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div#profileinfo div#profile_data a {
     color: #fff !important;
     text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00!important;
 }
-
-
+html {
+    background-color: black !important;
+}
+/*market and gboss summon screens*/
+#sellp,
+#sellg,
+#sells,
+#sellc{
+    width: 50px !important;
+    border-radius: 6px !important;
+}
+#sellq {
+    width: 100px !important;
+    border-radius: 6px !important;
+}
+#pguilddonate {
+    width: 100px !important;
+    border-radius: 6px !important;
+}
+#gguilddonate,
+#sguilddonate,
+#cguilddonate {
+    width: 50px !important;
+    border-radius: 6px !important;
+}
+/*profile - last mob stats*/
+span#mobname {
+    padding-left: 5px;
+    color: #EAFF00 !important;
+    text-shadow: 0px 0px 1px #FF6200, 0px 0px 1px #FF4100, 0px 0px 1px #F00 !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    text-decoration: none !important;
+}
  /*hover on buttons, text fields, etc....*/
 #mainnav:hover,
 #stopauto input:hover,
@@ -48,12 +97,22 @@ input#auctionchatbutton:hover,
 input#globalschatbutton:hover,
 input#areachatbutton:hover,
 input#pubchatbutton:hover,
-input#litechatbutton:hover {
+input#litechatbutton:hover,
+input#flowers:hover, 
+input#roots:hover, 
+input#oxides:hover,
+input#water:hover,
+input#mushrooms:hover,
+input#fruit:hover,
+input#lichen:hover,
+input#chalk:hover,
+#popup > div:nth-child(2) > div:nth-child(4) > input:nth-child(1):hover,
+#popup > div:nth-child(2) > div:nth-child(4) > input:nth-child(4):hover {
     font-size: 10pt !important;
     color: #fff !important;
     text-shadow: 1px 1px 2px #000, 1px 1px 2px #000, 1px 1px 2px #000 !important;
     border: 3px inset !important;
-    border-radius: 12px !important;
+    border-radius: 6px !important;
     border-color: #fff !important;
     box-shadow: 0px 0px 3px #f00, 0px 0px 3px #f00, 0px 0px 3px #f00 inset !important;
     background: rgb(0,0,0) !important;
@@ -62,6 +121,12 @@ input#litechatbutton:hover {
     background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1) !important;
 }
+
+#listlength,
+#popup > div:nth-child(3) > input:nth-child(6),
+#popup > div:nth-child(1) > input:nth-child(3),
+#markettype,
+#order,
 #mainnav,
 #stopauto input,
 input#bb89117,
@@ -98,13 +163,23 @@ input#auctionchatbutton,
 input#globalschatbutton,
 input#areachatbutton,
 input#pubchatbutton,
-input#litechatbutton {
+input#litechatbutton,
+input#flowers, 
+input#roots, 
+input#oxides,
+input#water,
+input#mushrooms,
+input#fruit,
+input#lichen,
+input#chalk,
+#popup > div:nth-child(2) > div:nth-child(4) > input:nth-child(1),
+#popup > div:nth-child(2) > div:nth-child(4) > input:nth-child(4) {
     font-size: 10pt !important;
     color: #fff !important;
     text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00!important;
     border: 3px !important;
     border-style: inset !important;
-    border-radius: 12px !important;
+    border-radius: 6px !important;
     border-color: #000 !important;
     box-shadow: 0px 0px 3px #f00, 0px 0px 3px #f00, 0px 0px 3px #f00 inset !important;
     background: rgb(0,0,0) !important;
@@ -112,6 +187,23 @@ input#litechatbutton {
     background: -webkit-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
     background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1) !important;
+}
+input#mainchatbutton,
+input#tradechatbutton,
+input#auctionchatbutton,
+input#globalschatbutton,
+input#areachatbutton,
+input#pubchatbutton,
+input#litechatbutton,
+input#mainchatbutton:hover,
+input#tradechatbutton:hover,
+input#auctionchatbutton:hover,
+input#globalschatbutton:hover,
+input#areachatbutton:hover,
+input#pubchatbutton:hover,
+input#litechatbutton:hover {
+    height: auto !important;
+    border-radius: 6px !important;
 }
 select#gemstuff option {
     color: #fff !important;
@@ -121,7 +213,7 @@ select#gemstuff option {
 /*level up and pet procs in battle screen*/
 span#levelgain {
     color: #fff !important;
-    text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00!important;
+    text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00 !important;
     font-style: normal !important;
     font-weight: normal !important;
     text-decoration: none !important;
@@ -134,15 +226,52 @@ span.pet_proc {
     font-weight: normal !important;
     text-decoration: none !important;
 }
-/*Quad*/
-html body div#holder div#middlesection.lrow div#main div#content div.lrow div.flex-content span span {
+/*exp multipliers*/
+span.bonus.double {
     color: #fff !important;
-    text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00!important;
+    text-shadow: 0px 0px 1px yellow, 0px 0px 1px yellow, 0px 0px 1px yellow !important;
     font-style: normal !important;
     font-weight: normal !important;
     text-decoration: none !important;
 }
-
+span.bonus.triple {
+    color: #fff !important;
+    text-shadow: 0px 0px 1px #a400a4, 0px 0px 1px #a400a4, 0px 0px 1px #a400a4 !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    text-decoration: none !important;
+}
+span.bonus.quad {
+    color: #fff !important;
+    text-shadow: 0px 0px 1px #f00, 0px 0px 1px #f00, 0px 0px 1px #F00 !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    text-decoration: none !important;
+}
+span.bonus.dec,
+.jadeDragonHungry {
+    color: #fff !important;
+    text-shadow: 0px 0px 2px #f0f, 0px 0px 2px #F0f, 0px 0px 2px #F0f !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    text-decoration: none !important;
+}
+html body div#holder div#middlesection.lrow div#main div#content div.lrow div.flex-content span {
+    font-style: normal !important;
+    font-weight: normal !important;
+    text-decoration: none !important;
+}
+.bonuschannel {
+    color: #EAFF00 !important;
+    text-shadow: 0px 0px 1px #FF6200, 0px 0px 1px #FF4100, 0px 0px 1px #F00 !important;
+    font-style: oblique;
+}
+/*name and rank in header*/
+#header > div.lrow > div:nth-child(1) > a,
+#rankli > a:nth-child(1) {
+    color: #EAFF00 !important;
+    text-shadow: 0px 0px 1px #FF6200, 0px 0px 1px #FF4100, 0px 0px 1px #F00 !important;
+}
 /*You have 10 pieces of jewellery equipped out of a total of 10 slots available.*/
 html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div#inventdiv1 font b {
     text-align: center;
@@ -155,6 +284,7 @@ html body div#popupcontainer div#popupholder div div div#popuprescontainer div#p
     color: #0f0 !important; 
 }
 
+
 #skills {
     font-size: 10px;
     padding: 5px;
@@ -162,6 +292,12 @@ html body div#popupcontainer div#popupholder div div div#popuprescontainer div#p
 #jewellery {
     font-size: 12px !important;
     padding: 5px !important;
+}
+
+/*smoosh jewelry*/
+select#smoosh {
+    color: #fff !important;
+    text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00!important;
 }
 
 /*Inventory selections*/
@@ -217,13 +353,20 @@ div#inventdiv7{
     text-align: center !important;
     padding-right: 0px;
 }
-
+#petli {
+    color: #EAFF00 !important;
+    text-shadow: 0px 0px 1px #FF6200, 0px 0px 1px #FF4100, 0px 0px 1px #F00 !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    text-decoration: none !important;
+}
 /*top right clickables*/
 html body div#holder div.lrow div#header div.lrow div.headerbox.headernav a {
     font-weight: bold !important;
 }
 .settingsform > label {
     text-align: center;
+    position: absolute;
 }
 
 .settingsform > label, .settingsform > input[type=password], .settingsform > input[type=text] {
@@ -237,7 +380,7 @@ html body div#holder div.lrow div#header div.lrow div.headerbox.headernav a {
 /*TRUE widescreen Lyr now :D */
 #holder {
     width: 99.9% !important;
-    background-image: url("https://screenshotscdn.firefoxusercontent.com/images/b6e256a2-0727-410e-a0ab-5badd1f2ef51.png")!important;
+    background-image: url("/images/main55/barridarkside_bg.png")!important;
     background-repeat: no-repeat !important;
     background-position: center !important;
     background-size: cover !important;
@@ -365,7 +508,7 @@ div#inventdiv1 {
 #jadereq.crafting-fake-jade-input {
     border: 3px;
     border-style: inset;
-    border-radius: 12px;
+    border-radius: 6px;
     border-color: #000 !important;
     box-shadow: 0px 0px 3px #f00, 0px 0px 3px #f00, 0px 0px 3px #f00 inset !important;
     background-color: black;
@@ -380,7 +523,7 @@ html body div#holder div.lrow div#chat div#chatwindow div.chatline span table tb
 }
 /*scratch card border*/
 div#cardcontainer {
-    background-image: url("https://screenshotscdn.firefoxusercontent.com/images/b6e256a2-0727-410e-a0ab-5badd1f2ef51.png")!important;
+    background-image: url("/images/main55/barridarkside_bg.png")!important;
     background-repeat: no-repeat !important;
     background-position: center !important;
     background-size: cover !important;
@@ -402,7 +545,7 @@ html body div#popupcontainer div#popupholder div div div#popuprescontainer div#p
     color: #EEE;
     text-shadow: 0px 0px 3px #F00, 0px 0px 3px #F00, 0px 0px 3px #FF00FB;
     font-weight: normal;
-    border-radius: 12px;
+    border-radius: 6px;
     border: white 5px;
     border-style: double;
     border-color: #fff;
@@ -425,7 +568,7 @@ html body div#popupcontainer div#popupholder div div div#popuprescontainer div#p
     color: #0CE300 !important;
     text-shadow: 0px 0px 3px #90F, 0px 0px 2px #3399ff, 0px 0px 3px #D700FF !important;
     font-weight: normal;
-    border-radius: 12px;
+    border-radius: 6px;
     border: white 5px;
     border-style: double;
     border-color: #0CE300 !important;
@@ -448,7 +591,7 @@ html body div#popupcontainer div#popupholder div div div#popuprescontainer div#p
     color: #fff !important;
     text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00 !important;
     font-weight: normal;
-    border-radius: 12px;
+    border-radius: 6px;
     border: white 5px;
     border-style: double;
     border-color: #f00 !important;
@@ -512,7 +655,7 @@ html body div#popupcontainer div#popupholder div div div#popuprescontainer div#p
     margin-bottom: -3% !important;
     padding-bottom: 1% !important;
     margin-left: 25px !important;
-    border-radius: 12px;
+    border-radius: 6px;
     border: white 3px;
     border-style: ridge;
     border-color: #000 !important;
@@ -527,7 +670,7 @@ html body div#popupcontainer div#popupholder div div div#popuprescontainer div#p
     max-width: 050px !important;
     margin-top: 1% !important;
     margin-left: 295px;
-    border-radius: 12px;
+    border-radius: 6px;
     text-align: center !important;
     padding-left: 25px;
     border: white 3px;
@@ -561,7 +704,7 @@ html body div#popupcontainer div#popupholder div div div#popuprescontainer div#p
     color: #fff !important;
     text-shadow: 1px 1px 2px #000, 1px 1px 2px #000, 1px 1px 2px #000 !important;
     border: 3px inset !important;
-    border-radius: 12px;
+    border-radius: 6px;
     border-color: #fff !important;
     box-shadow: 0px 0px 3px #f00, 0px 0px 3px #f00, 0px 0px 3px #f00 inset !important;
     background: rgb(0,0,0) !important;
@@ -572,12 +715,13 @@ html body div#popupcontainer div#popupholder div div div#popuprescontainer div#p
 }
 /*profile shit*/
 html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div#profileinfo {
-    background-image: url("https://screenshotscdn.firefoxusercontent.com/images/b6e256a2-0727-410e-a0ab-5badd1f2ef51.png")!important;
+    background-image: url("/images/main55/barridarkside_bg.png")!important;
     background-repeat: no-repeat !important;
     background-position: center !important;
     background-size: cover !important;
     border: double 3px #f00 !important;
 }
+
 html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div#profileinfo div#profile_data,
 html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div#profileinfo div#profile_data div,
 html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div#profileinfo div#battle_data,
@@ -591,14 +735,7 @@ html body div#popupcontainer div#popupholder div div div#popuprescontainer div#p
     font-size: 12pt;
     margin-top: 5px;
 }
-/*Profile pic background*/
-html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div#profilepic {
-    background-image: url("https://screenshotscdn.firefoxusercontent.com/images/b6e256a2-0727-410e-a0ab-5badd1f2ef51.png")!important;
-    background-repeat: no-repeat !important;
-    background-position: center !important;
-    background-size: cover !important;
-    border: double 3px #f00 !important;
-}
+
 
 /*text area on profile*/
 #bio {
@@ -618,37 +755,28 @@ html body div#popupcontainer div#popupholder div div div#popuprescontainer div#p
     border-style: inset;
     border-color: #000 !important;
     box-shadow: 0px 0px 3px #f00, 0px 0px 3px #f00, 0px 0px 3px #f00 inset !important;
-    border-radius: 12px;
+    border-radius: 6px;
 }
 /* Players names in chat */
 .chatname {
     color: #f00 !important;
     text-shadow: 1px 1px 2px #000, 1px 1px 2px #000, 1px 1px 2px #000 !important;
 }
-
+/*#the,
+.game {
+    content: "you lost";
+    color: #fff !important;
+    text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00 !important;
+}*/
 /* Admin chat text color */
 .admincolour {
-    color: #FF0000 !important;
+    color:#f00 !important;
     text-shadow: 1px 1px 2px #000, 1px 1px 2px #000, 1px 1px 2px #000 !important;
 }
 
-/*chat buttons*/
-input#mainchatbutton,
-input#tradechatbutton,
-input#auctionchatbutton,
-input#globalschatbutton,
-input#areachatbutton,
-input#pubchatbutton,
-input#litechatbutton {
-    height: 20px !important;
-    margin-left: 0px !important;
-    cursor: pointer;
-    width: 20px !important;
-    border-style: inset !important;
-    background: #0000 !important;
-}
 
-/* Chat */
+
+/* Chat (12 lines)*/
 #chatwindow {
     margin-top: .8%;
     font-size: 10pt !important;
@@ -656,7 +784,7 @@ input#litechatbutton {
     border-style: ridge;
     border-color: #000 !important;
     box-shadow: 0px 0px 3px #f00, 0px 0px 3px #f00, 0px 0px 3px #f00 inset !important;
-    border-radius: 12px 12px 12px 12px;
+    border-radius: 6px;
     background-color: #00000000 !important;
     color: #FFF !important;
     text-shadow: 1px 1px 2px black, 1px 1px 2px black, 1px 1px 2px black;
@@ -673,17 +801,17 @@ input#litechatbutton {
     position: relative !important;
     font-size: 10pt !important;
     text-indent: 3px !important;
-    border: 3px;
-    border-style: inset;
+    border: 3px !important;
+    border-style: inset !important;
     border-color: #000 !important;
     box-shadow: 0px 0px 3px #f00, 0px 0px 3px #f00, 0px 0px 3px #f00 inset !important;
-    border-radius: 0px 0px 12px 12px;
+    border-radius: 6px !important;
     background: #0000!important;
     color: #fff !important;
     text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00 !important;
     text-align: left !important;
-    font-weight: normal;
-    padding-left: 10px !important;
+    font-weight: normal !important;
+    padding-left: 2px !important;
 }
 
 /*chat send button*/
@@ -715,7 +843,7 @@ html body div#holder div.lrow div#chat input#chatbutton {
     background: -webkit-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
     background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1) !important;
-    border-radius: 12px;
+    border-radius: 6px;
     border-color: #000 !important;
     box-shadow: 0px 0px 3px #f00, 0px 0px 3px #f00, 0px 0px 3px #f00 inset !important;
     color: #fff !important;
@@ -743,8 +871,8 @@ body {
     border-style: inset;
     border-color: #000 !important;
     box-shadow: 0px 0px 3px #f00, 0px 0px 3px #f00, 0px 0px 3px #f00 inset !important;
-    border-radius: 12px 12px 12px 12px;
-    background-color: black;
+    border-radius: 6px;
+    background-color: black !important;
 }
 
 /*Purchase/Spend fuckin tokens*/
@@ -767,7 +895,7 @@ html body div#popupcontainer div#popupholder div div div#popuprescontainer div#p
     border-style: inset;
     border-color: #000 !important;
     box-shadow: 0px 0px 3px #f00, 0px 0px 3px #f00, 0px 0px 3px #f00 inset !important;
-    border-radius: 12px 0px 0px 12px;
+    border-radius: 6px 0px 0px 6px;
     text-align: left;
     color: #FFF;
 }
@@ -779,7 +907,7 @@ html body div#popupcontainer div#popupholder div div div#popuprescontainer div#p
     border-style: inset;
     border-color: #000 !important;
     box-shadow: 0px 0px 3px #f00, 0px 0px 3px #f00, 0px 0px 3px #f00 inset !important;
-    border-radius: 0px 12px 12px 0px;
+    border-radius: 0px 6px 6px 0px;
     text-align: right;
     color: #FFF;
 }
@@ -807,7 +935,7 @@ html body div#popupcontainer div#popupholder div div div#popuprescontainer div#p
 #header {
     position: relative !important;
     text-align: left !important;
-    border-radius: 12px;
+    border-radius: 6px;
     border: 3px;
     border-style: inset;
     border-color: #000 !important;
@@ -830,7 +958,7 @@ textarea#message {
     min-width: 600px !important;
     min-height: 250px !important;
     cursor: default;
-    border-radius: 12px;
+    border-radius: 6px;
     border: 3px inset;
     border-color: #000 !important;
     box-shadow: 0px 0px 3px #f00, 0px 0px 3px #f00, 0px 0px 3px #f00 inset !important;
@@ -874,7 +1002,7 @@ option {
 input {
     color: #fff !important;
     text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00 !important;
-    border-radius: 12px !important;
+    border-radius: 6px !important;
     background: rgb(0,0,0) !important;
     background: -moz-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
     background: -webkit-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
@@ -895,7 +1023,7 @@ button {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1) !important;
     color: #fff !important;
     text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00 !important;
-    border-radius: 12px !important;
+    border-radius: 6px !important;
     border: 3px inset;
     border-color: #000 !important;
     box-shadow: 0px 0px 3px #f00, 0px 0px 3px #f00, 0px 0px 3px #f00 inset !important;
@@ -911,7 +1039,7 @@ button {
     background: -webkit-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
     background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1) !important;
-    border-radius: 12px;
+    border-radius: 6px;
     border: 3px inset;
     border-color: #000 !important;
     box-shadow: 0px 0px 3px #f00, 0px 0px 3px #f00, 0px 0px 3px #f00 inset !important;
@@ -947,6 +1075,7 @@ select#mainnav option {
     background-position: center;
     background-size: cover;
     border: 3px inset !important;
+    border-radius: 6px;
     border-color: #000 !important;
     box-shadow: 0px 0px 3px #f00, 0px 0px 3px #f00, 0px 0px 3px #f00 inset !important;
     text-align: center !important;
@@ -971,12 +1100,12 @@ div.panel-heading a {
     font-size: 12pt;
 }
 .panel {
-    border-radius: 12px;
+    border-radius: 6px;
     border: 3px inset;
     border-style: inset;
     border-color: #000 !important;
     box-shadow: 0px 0px 3px #f00, 0px 0px 3px #f00, 0px 0px 3px #f00 inset !important;
-    margin-left: 2% !important;
+    margin-left: 0% !important;
 }
 /*header text*/
 html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div div.panel div.panel-heading {
@@ -989,7 +1118,7 @@ html body div#popupcontainer div#popupholder div div div#popuprescontainer div#p
 }
 div.panel-body hr,
 div.panel-heading hr {
-    border-radius: 12px;
+    border-radius: 6px;
     border: #f00 2px;
     border-style: inset;
     border-color: #000 !important;
@@ -1005,14 +1134,19 @@ html body div#popupcontainer div#popupholder div div div#popuprescontainer div#p
     background: -webkit-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
     background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,0,1) 50%, rgba(0,0,0,1) 100%) !important;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1) !important;
-    border-radius: 7px 7px 0px 0px !important;
+    border-radius: 6px 6px 0px 0px !important;
+}
+/*new panels updates*/
+html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div div.lrow div.flex div.panel,
+html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div div.lrow div.flex {
+    min-height: 120px;   
 }
 /*non-popup ui log*/
 html body div#holder div#middlesection.lrow div#main div#content div div.panel div.panel-heading.text-center {
     color: #fff !important;
     text-shadow: 0px 0px 2px #000, 0px 0px 2px #000, 0px 0px 2px #000 !important;
     background-color: #1c1c1c !important;
-    border-radius: 7px 7px 0px 0px !important;
+    border-radius: 6px 6px 0px 0px !important;
     border: hidden !important;
 }
 /*non-pop up ui panel background*/
@@ -1045,40 +1179,40 @@ html body div#holder div#middlesection.lrow div#main div#content div div.panel d
     text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00 !important;
 }
 #emeraldsli2 {
-    color: #fff !important;
-    text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00 !important;
+    color: #EAFF00 !important;
+    text-shadow: 0px 0px 1px #FF6200, 0px 0px 1px #FF4100, 0px 0px 1px #F00 !important;
 }
 #opalsli {
     color: #fff !important;
     text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00 !important;
 }
 #opalsli2 {
-    color: #fff !important;
-    text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00 !important;
+    color: #EAFF00 !important;
+    text-shadow: 0px 0px 1px #FF6200, 0px 0px 1px #FF4100, 0px 0px 1px #F00 !important;
 }
 #rubiesli {
     color: #fff !important;
     text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00 !important;
 }
 #rubiesli2 {
-    color: #fff !important;
-    text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00 !important;
+    color: #EAFF00 !important;
+    text-shadow: 0px 0px 1px #FF6200, 0px 0px 1px #FF4100, 0px 0px 1px #F00 !important;
 }
 #sapphiresli {
     color: #fff !important;
     text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00 !important;
 }
 #sapphiresli2 {
-    color: #fff !important;
-    text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00 !important;
+    color: #EAFF00 !important;
+    text-shadow: 0px 0px 1px #FF6200, 0px 0px 1px #FF4100, 0px 0px 1px #F00 !important;
 }
 #diamondsli {
     color: #fff !important;
     text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00 !important;
 }
 #diamondsli2 {
-    color: #fff !important;
-    text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00 !important;
+    color: #EAFF00 !important;
+    text-shadow: 0px 0px 1px #FF6200, 0px 0px 1px #FF4100, 0px 0px 1px #F00 !important;
 }
 #expli {
     color: #fff !important;
@@ -1124,10 +1258,10 @@ html body div#holder div#middlesection.lrow div#main div#content div div.panel d
     color: #fff !important;
     text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00 !important;
 }
-#petli {
+/*#petli {
     color: #fff !important;
     text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00 !important;
-}
+}*/
 #guildli {
     color: #fff !important;
     text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00 !important;
@@ -1160,8 +1294,8 @@ html body div#holder div#middlesection.lrow div#main div#content div div.panel d
     padding-left: 10px;
     text-align: right;
 }
-#eqgold {
-    padding-left: 18px;
+span#dp {
+    padding-left: 32px;
 }
 #jadeli {
     padding-left: 23px;
@@ -1354,7 +1488,7 @@ html body div#holder div#middlesection.lrow div#side2 hr {
     width: 60%;
     border: 3px !important;
     border-style: groove !important;
-    border-radius: 12px;
+    border-radius: 6px;
     border-color: #000 !important;
     box-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00 !important;
 }
@@ -1460,8 +1594,30 @@ html body div#holder div#middlesection.lrow div#main div#content div#rightinfo i
     min-width: 135px;
     max-width: 150px;
 }
-
-
+/*Profile pic background*/
+html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div#profilepic {
+    background-image: url(""/images/main55/barridarkside_bg.png") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+    border: double 3px #f00 !important;
+}
+/*profile pic selections*/
+img[src*="a0.jpg"] {
+    width: 0px;
+    padding-left: 180px;
+    padding-top: 0px;
+    background-color: #00000000 !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-size: 300%;
+    border: none 6px #570000;
+    border-radius: 6px;
+    border-width: 8px;
+    margin: 1.5%;
+    /*or cover*/
+}
 /*Profile Info*/
 #battle_data,
 #profile_data {
@@ -1477,7 +1633,7 @@ html body div#holder div#middlesection.lrow div#main div#content div#rightinfo i
 #show_staff  {
     text-align: center;
     border: 3px inset !important;
-    border-radius: 12px;
+    border-radius: 6px;
     border-color: #000 !important;
     box-shadow: 0px 0px 3px #f00, 0px 0px 3px #f00, 0px 0px 3px #f00 inset !important;
     background: rgb(0,0,0) !important;
@@ -1544,14 +1700,14 @@ a:hover {
 #bannerholder {
     top: 27px !important;
     border: none !important;
-    color: #fff !important;
-    text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00 !important;
+    color: #EAFF00 !important;
+    text-shadow: 0px 0px 1px #FF6200, 0px 0px 1px #FF4100, 0px 0px 1px #F00 !important;
     padding: 0px !important;
-    border-radius: 12px !important;
+    border-radius: 6px !important;
     background: black !important;
     font-weight: normal;
     height: 0px !important;
-    font-size: 12pt;
+    font-size: 10pt;
 }
 
 #bannerholder > span > a > font:hover {
@@ -1615,6 +1771,7 @@ html body div#holder div#middlesection.lrow div#main div#bannerholder div a font
   padding-left: 130px;
   min-width: 85% !important;
 }
+
 #banner>table td {
   width: 50px !important;
   padding: 0px !important;
@@ -1706,14 +1863,14 @@ div[style*="border-style:solid;border-width:1px;border-color:#660066"] img {
 
 #popupcontainer div {
     background-color: #000;
-    border-radius: 12px;
+    border-radius: 6px;
     color: #fff;
     resize: vertical !important;
-    font-size: 9pt;
+    font-size: 10pt;
 }
 #popuptopbar {
     background-color: #323232;
-    border-radius: 12px 12px 0px 0px;
+    border-radius: 6px 6px 0px 0px;
     border-color: #000 !important;
     box-shadow: 0px 0px 3px #f00, 0px 0px 3px #f00, 0px 0px 3px #f00 inset !important;
 }
@@ -1773,7 +1930,7 @@ html body div#popupcontainer div#popupholder div div div#popuprescontainer div#p
     color: #fff !important;
     text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00 !important;
     border: 3px inset !important;
-    border-radius: 12px 7px 0px 12px;
+    border-radius: 6px 7px 0px 6px;
     border-color: #000 !important;
     box-shadow: 0px 0px 3px #f00, 0px 0px 3px #f00, 0px 0px 3px #f00 inset !important;
     background: rgb(0,0,0) !important;
@@ -1801,7 +1958,7 @@ html body div#popupcontainer div#popupholder div div div#popuprescontainer div#p
     font-size: 12pt !important;
     text-align: center;
     border: 3px inset !important;
-    border-radius: 12px 7px 0px 12px;
+    border-radius: 6px 7px 0px 6px;
     border-color: #fff !important;
     box-shadow: 0px 0px 3px silver, 0px 0px 3px silver, 0px 0px 3px silver inset !important;
     height:18px !important;
@@ -1839,7 +1996,7 @@ table#milestonestable {
     border-collapse: collapse;
     display: inline-block;
     background-color: #00000075;
-    border-radius: 12px;
+    border-radius: 6px;
     border: 3px;
     border-style: double;
     margin-left: 15px;
@@ -1876,7 +2033,7 @@ a#ranking {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    border-radius: 12px;
+    border-radius: 6px;
 }
 
 a#ranking-selected {
@@ -1887,7 +2044,7 @@ a#ranking-selected {
     font-size: 11pt;
     border:3px;
     border-style: inset;
-    border-radius: 12px;
+    border-radius: 6px;
     border-color: #fff;
     box-shadow: 0px 0px 3px #f00, 0px 0px 3px #f00, 0px 0px 3px #f00 inset !important;
     padding: 1px 5px 1px 5px;
@@ -1910,9 +2067,6 @@ a:hover#ranking {
     box-shadow: 0px 0px 3px #f00, 0px 0px 3px #f00, 0px 0px 3px #f00 inset;
 }
 
-
-
-
 /*commands window*/
 html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div h4 {
     background: rgb(0,0,0) !important;
@@ -1928,7 +2082,7 @@ html body div#popupcontainer div#popupholder div div div#popuprescontainer div#p
     text-align: center;
     padding-bottom:0px;
     border: 3px inset !important;
-    border-radius: 12px;
+    border-radius: 6px;
     border-color: #000 !important;
     box-shadow: 0px 0px 3px #f00, 0px 0px 3px #f00, 0px 0px 3px #f00 inset !important;
 }
