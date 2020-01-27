@@ -1294,8 +1294,10 @@ html body div#holder div#middlesection.lrow div#main div#content div div.panel d
     padding-left: 10px;
     text-align: right;
 }
-span#dp {
-    padding-left: 32px;
+#eqgold {
+    padding-left: 53px;
+    color: #fff !important;
+    text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00 !important;
 }
 #jadeli {
     padding-left: 23px;
@@ -1596,7 +1598,7 @@ html body div#holder div#middlesection.lrow div#main div#content div#rightinfo i
 }
 /*Profile pic background*/
 html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div#profilepic {
-    background-image: url(""/images/main55/barridarkside_bg.png") !important;
+    background-image: url(''/images/main55/barridarkside_bg.png") !important;
     background-repeat: no-repeat !important;
     background-position: center !important;
     background-size: cover !important;
