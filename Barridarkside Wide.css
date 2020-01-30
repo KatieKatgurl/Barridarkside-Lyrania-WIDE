@@ -18,9 +18,8 @@ div#rankli > a:nth-child(1) {
     text-shadow: 0px 0px 1px #FF6200, 0px 0px 1px #FF4100, 0px 0px 1px #F00 !important;
     font-style: normal !important;
 }
-div.headerbox:nth-child(2) > b:nth-child(4) > span:nth-child(1) {
-    display: none !important;
-}
+
+
 /*profile guild name/partner name*/
 html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div#profileinfo div#profile_data a {
     color: #fff !important;
@@ -1166,7 +1165,8 @@ html body div#holder div#middlesection.lrow div#main div#content div div.panel d
     color: #fff !important;
     text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00 !important;
 }
-#eqgold span[style*="color"] {
+#eqgold span[style*="color"],
+div.headerbox:nth-child(2) > b:nth-child(4) {
     color: #fff !important;
     text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00 !important;
 }
@@ -1295,9 +1295,17 @@ html body div#holder div#middlesection.lrow div#main div#content div div.panel d
     text-align: right;
 }
 #eqgold {
-    padding-left: 53px;
     color: #fff !important;
     text-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00 !important;
+}
+span#dp {
+    font-size: 10pt  !important;
+}
+/*DP: in header (not value though)*/
+div.headerbox:nth-child(2) > b:nth-child(4) > span:nth-child(1) {
+    display: contents !important;
+    color: #fff !important;
+    text-shadow: 0px 0px 2px #000, 0px 0px 2px #000, 0px 0px 2px #000 !important;
 }
 #jadeli {
     padding-left: 23px;
