@@ -126,6 +126,7 @@ html
   div
   button:hover,
 input#mainchatbutton:hover,
+input#guildchatbutton:hover,
 input#tradechatbutton:hover,
 input#auctionchatbutton:hover,
 input#globalschatbutton:hover,
@@ -219,6 +220,7 @@ html
   div
   button,
 input#mainchatbutton,
+input#guildchatbutton,
 input#tradechatbutton,
 input#auctionchatbutton,
 input#globalschatbutton,
@@ -265,6 +267,7 @@ input#chalk,
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1) !important;
 }
 input#mainchatbutton,
+input#guildchatbutton,
 input#tradechatbutton,
 input#auctionchatbutton,
 input#globalschatbutton,
@@ -272,6 +275,7 @@ input#areachatbutton,
 input#pubchatbutton,
 input#litechatbutton,
 input#mainchatbutton:hover,
+input#guildchatbutton:hover,
 input#tradechatbutton:hover,
 input#auctionchatbutton:hover,
 input#globalschatbutton:hover,
