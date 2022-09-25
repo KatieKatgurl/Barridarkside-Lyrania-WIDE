@@ -26,7 +26,9 @@ html body div#holder div.lrow div#header div.lrow div.headerbox span#usernameli 
   text-shadow: 0px 0px 1px #ff6200, 0px 0px 1px #ff4100, 0px 0px 1px #f00 !important;
   font-style: normal !important;
 }
-
+a#unreadmail {
+    height: 5px !important;
+}
 /*profile guild name/partner name*/
 html
   body
@@ -1509,10 +1511,10 @@ html
 }
 
 div#usersmartinfo {
-    padding-top: 50px !important;
+    padding-top:50px !important;
 }
 div#sidecounter.mt-2 {
-    padding-top: 50px !important;
+    padding-top: 65px !important;
 }
 
 /*Mail related*/
@@ -2781,9 +2783,11 @@ div[style*="border-style:solid;border-width:1px;border-color:#660066"] img {
   opacity: 0.7 !important;
   border-color: #c0c !important;
 }
-
-#popupcontainer div {
-  background-color: #000;
+#popupcontainer {
+  padding-top: 85px !important;
+}
+#popupcontainer div{
+  background-color: #0000;
   border-radius: 6px;
   color: #fff;
   resize: vertical !important;
@@ -2800,7 +2804,7 @@ div[style*="border-style:solid;border-width:1px;border-color:#660066"] img {
   font-size: 12px;
   padding-left: 0px !important;
   margin-top: 5px;
-  height: auto !important;
+  height: vertical !important;
 }
 /*#popupnav {
     text-align: center !important;
@@ -2819,7 +2823,7 @@ div[style*="border-style:solid;border-width:1px;border-color:#660066"] img {
   margin-top: 3px !important;
 }
 select#popupnav option {
-  background: black;
+  background: #000;
 }
 select#pet option,
 select#talcol option {
